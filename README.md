@@ -1,4 +1,4 @@
-# balder v7 — official evaluation benchmarks and verification traces
+# balder v7 powered by snga được thực hiện bởi Phong Vân
 
 chứa các báo cáo kết quả đánh giá thực tế, tệp dữ liệu máy đọc (JSON) và nhật ký nhị phân GPU (GPU Binary Logs) của kiến trúc tác nhân Balder v7 (Neurogenomic Symbolic Architecture) được thực hiện bởi tác giả độc lập **Phong Vân**.
 
