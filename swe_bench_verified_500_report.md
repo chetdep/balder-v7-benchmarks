@@ -7,6 +7,8 @@
 * **Dataset:** `SWE-bench Verified (500 cases)`
 * **Docker Environment:** Isolated `python:3.11-slim` Container (`--network=none`)
 * **Total Test Cases:** **500 / 500 Verified Cases**
+* **Average Latency:** `7088.74 ms` per problem
+* **Latency Range (Min / Max):** `30.00 ms` / `43863.20 ms`
 * **Public Verification Trace File:** `swe_bench_verified_500_public_verification_trace.json`
 ---
 
