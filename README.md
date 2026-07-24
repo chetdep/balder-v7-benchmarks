@@ -1,6 +1,6 @@
 # balder v7 powered by snga developed by Phong Vân
 
-Contains raw execution results, machine-readable JSON data, and GPU VRAM binary logs for the Balder v7 Neurogenomic Symbolic Architecture developed by independent researcher **Phong Vân**.
+Contains raw execution results, machine-readable JSON data, and GPU VRAM binary logs for Balder v7 Powered by SNGA developed by independent researcher **Phong Vân**.
 
 All data provided here are 100% genuine black-box evaluation traces and do not contain core proprietary source code to ensure intellectual property protection.
 
