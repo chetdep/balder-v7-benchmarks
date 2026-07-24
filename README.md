@@ -55,6 +55,10 @@ All data provided here are 100% genuine black-box evaluation traces and do not c
 3. **docker test scoring**:
    * Execution on software engineering benchmarks is isolated and run via Docker containers, logged in `log/swe_bench_verified_500_docker_scorer.log`.
 
+4. **live video demonstrations
+   * [▶️ Watch SWE-bench Verified Execution Trace (Google Drive)](https://drive.google.com/file/d/1zAjzJXBaQ6CKFgyLBuFb6yFKHe2t1K3G/view?usp=drive_link)
+   * [▶️ Watch LiveCode-bench Trace (Google Drive)]([link_video_security_cua_ban](https://drive.google.com/file/d/1pKdesbujkKj_a4M18n6GjpXb3Qvec9oj/view?usp=drive_link))
+
 ---
 
 ## 📄 intellectual property notice
