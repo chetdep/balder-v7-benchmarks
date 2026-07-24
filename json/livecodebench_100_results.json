@@ -1,0 +1,1012 @@
+{
+  "timestamp": "2026-07-24 18:42:51",
+  "total_instances": 100,
+  "resolved_instances": 82,
+  "accuracy_pct": 82.0,
+  "tle_count": 18,
+  "re_count": 0,
+  "wa_count": 0,
+  "avg_latency_ms": 17922.69,
+  "results": [
+    {
+      "index": 1,
+      "question_id": "abc301_f",
+      "title": "Anti",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 25722.46,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 2,
+      "question_id": "abc301_a",
+      "title": "Overall Winner",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 18222.66,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 3,
+      "question_id": "abc301_c",
+      "title": "AtCoder Cards",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19711.49,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 4,
+      "question_id": "abc301_d",
+      "title": "Bitmask",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19063.82,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 5,
+      "question_id": "abc301_b",
+      "title": "Fill the Gaps",
+      "difficulty": "easy",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 16484.41,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 6,
+      "question_id": "abc301_e",
+      "title": "Pac",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21901.39,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 7,
+      "question_id": "abc302_f",
+      "title": "Merge Set",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21518.79,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 8,
+      "question_id": "abc302_a",
+      "title": "Attack",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21183.69,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 9,
+      "question_id": "abc302_d",
+      "title": "Impartial Gift",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20537.57,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 10,
+      "question_id": "abc302_e",
+      "title": "Isolation",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20261.49,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 11,
+      "question_id": "abc302_b",
+      "title": "Find snuke",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 22363.14,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 12,
+      "question_id": "abc302_c",
+      "title": "Almost Equal",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19328.07,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 13,
+      "question_id": "abc303_e",
+      "title": "A Gift From the Stars",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 22271.54,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 14,
+      "question_id": "abc303_d",
+      "title": "Shift vs. CapsLock",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 24125.04,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 15,
+      "question_id": "abc303_c",
+      "title": "Dash",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 21072.9,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 16,
+      "question_id": "abc303_b",
+      "title": "Discord",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21289.03,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 17,
+      "question_id": "abc303_a",
+      "title": "Similar String",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 9497.78,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 18,
+      "question_id": "abc304_d",
+      "title": "A Piece of Cake",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 15375.19,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 19,
+      "question_id": "abc304_e",
+      "title": "Good Graph",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 14201.63,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 20,
+      "question_id": "abc304_a",
+      "title": "First Player",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 7690.77,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 21,
+      "question_id": "abc304_c",
+      "title": "Virus",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 16716.67,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 22,
+      "question_id": "abc304_b",
+      "title": "Subscribers",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 10781.07,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 23,
+      "question_id": "abc305_c",
+      "title": "Snuke the Cookie Picker",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 17844.2,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 24,
+      "question_id": "abc305_d",
+      "title": "Sleep Log",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 18696.45,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 25,
+      "question_id": "abc305_a",
+      "title": "Water Station",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 17450.46,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 26,
+      "question_id": "abc305_b",
+      "title": "ABCDEFG",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 16173.45,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 27,
+      "question_id": "abc305_e",
+      "title": "Art Gallery on Graph",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 18887.68,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 28,
+      "question_id": "abc306_e",
+      "title": "Best Performances",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 8321.71,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 29,
+      "question_id": "abc306_a",
+      "title": "Echo",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 9351.86,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 30,
+      "question_id": "abc306_d",
+      "title": "Poisonous Full",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20549.26,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 31,
+      "question_id": "abc306_c",
+      "title": "Centers",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 14179.6,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 32,
+      "question_id": "abc306_b",
+      "title": "Base 2",
+      "difficulty": "easy",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 13739.62,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 33,
+      "question_id": "abc307_d",
+      "title": "Mismatched Parentheses",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 16811.39,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 34,
+      "question_id": "abc307_c",
+      "title": "Ideal Sheet",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20471.34,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 35,
+      "question_id": "abc307_e",
+      "title": "Distinct Adjacent",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 16007.12,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 36,
+      "question_id": "abc307_a",
+      "title": "Weekly Records",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 14942.73,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 37,
+      "question_id": "abc307_b",
+      "title": "racecar",
+      "difficulty": "easy",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 12956.73,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 38,
+      "question_id": "abc308_d",
+      "title": "Snuke Maze",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21889.13,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 39,
+      "question_id": "abc308_a",
+      "title": "New Scheme",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19881.89,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 40,
+      "question_id": "abc308_f",
+      "title": "Vouchers",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 17591.8,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 41,
+      "question_id": "abc308_c",
+      "title": "Standings",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 21646.39,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 42,
+      "question_id": "abc308_e",
+      "title": "MEX",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21001.28,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 43,
+      "question_id": "abc308_b",
+      "title": "Default Price",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19376.41,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 44,
+      "question_id": "abc309_d",
+      "title": "Add One Edge",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 18993.19,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 45,
+      "question_id": "abc309_c",
+      "title": "Medicine",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20674.22,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 46,
+      "question_id": "abc309_a",
+      "title": "Nine",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 10439.53,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 47,
+      "question_id": "abc309_b",
+      "title": "Rotate",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 15499.73,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 48,
+      "question_id": "abc309_e",
+      "title": "Family and Insurance",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 12159.53,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 49,
+      "question_id": "abc310_f",
+      "title": "Make 10 Again",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 14566.71,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 50,
+      "question_id": "abc310_c",
+      "title": "Reversible",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 11949.55,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 51,
+      "question_id": "abc310_a",
+      "title": "Order Something Else",
+      "difficulty": "easy",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 8496.64,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 52,
+      "question_id": "abc310_d",
+      "title": "Peaceful Teams",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 18751.27,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 53,
+      "question_id": "abc310_e",
+      "title": "NAND repeatedly",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 18120.21,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 54,
+      "question_id": "abc310_b",
+      "title": "Strictly Superior",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20189.55,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 55,
+      "question_id": "abc311_a",
+      "title": "First ABC",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 10365.1,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 56,
+      "question_id": "abc311_b",
+      "title": "Vacation Together",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 16616.84,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 57,
+      "question_id": "abc311_c",
+      "title": "Find it!",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 17400.9,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 58,
+      "question_id": "abc311_e",
+      "title": "Defect",
+      "difficulty": "hard",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 15481.55,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 59,
+      "question_id": "abc311_d",
+      "title": "Grid Ice Floor",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 15746.86,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 60,
+      "question_id": "abc312_a",
+      "title": "Chord",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 9623.89,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 61,
+      "question_id": "abc312_d",
+      "title": "Count Bracket Sequences",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 15387.88,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 62,
+      "question_id": "abc312_e",
+      "title": "Tangency of Cuboids",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 15926.47,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 63,
+      "question_id": "abc312_c",
+      "title": "Invisible Hand",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 17097.46,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 64,
+      "question_id": "abc312_f",
+      "title": "Cans and Openers",
+      "difficulty": "hard",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 16730.29,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 65,
+      "question_id": "abc312_b",
+      "title": "TaK Code",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19486.59,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 66,
+      "question_id": "abc313_a",
+      "title": "To Be Saikyo",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21183.21,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 67,
+      "question_id": "abc313_c",
+      "title": "Approximate Equalization 2",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 18393.01,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 68,
+      "question_id": "abc313_b",
+      "title": "Who is Saikyo?",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 13480.79,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 69,
+      "question_id": "abc314_e",
+      "title": "Roulettes",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 24993.38,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 70,
+      "question_id": "abc314_a",
+      "title": "3.14",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20065.7,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 71,
+      "question_id": "abc314_f",
+      "title": "A Certain Game",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 23823.76,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 72,
+      "question_id": "abc314_b",
+      "title": "Roulette",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21065.62,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 73,
+      "question_id": "abc314_c",
+      "title": "Rotate Colored Subsequence",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 9608.09,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 74,
+      "question_id": "abc314_d",
+      "title": "LOWER",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 10289.7,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 75,
+      "question_id": "abc315_b",
+      "title": "The Middle Day",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19773.26,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 76,
+      "question_id": "abc315_d",
+      "title": "Magical Cookies",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20054.88,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 77,
+      "question_id": "abc315_a",
+      "title": "tcdr",
+      "difficulty": "easy",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 16437.59,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 78,
+      "question_id": "abc315_e",
+      "title": "Prerequisites",
+      "difficulty": "hard",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 14221.02,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 79,
+      "question_id": "abc315_c",
+      "title": "Flavors",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19260.84,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 80,
+      "question_id": "abc315_f",
+      "title": "Shortcuts",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20987.76,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 81,
+      "question_id": "abc318_c",
+      "title": "Blue Spring",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 19566.74,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 82,
+      "question_id": "abc318_e",
+      "title": "Sandwiches",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19876.39,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 83,
+      "question_id": "abc318_b",
+      "title": "Overlapping sheets",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20459.22,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 84,
+      "question_id": "abc318_a",
+      "title": "Full Moon",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19958.15,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 85,
+      "question_id": "abc318_d",
+      "title": "General Weighted Max Matching",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20209.25,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 86,
+      "question_id": "abc319_d",
+      "title": "Minimum Width",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21361.74,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 87,
+      "question_id": "abc319_c",
+      "title": "False Hope",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 22759.46,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 88,
+      "question_id": "abc319_e",
+      "title": "Bus Stops",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 18385.32,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 89,
+      "question_id": "abc319_b",
+      "title": "Measure",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19979.9,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 90,
+      "question_id": "abc320_c",
+      "title": "Slot Strategy 2 (Easy)",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 22386.14,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 91,
+      "question_id": "abc320_b",
+      "title": "Longest Palindrome",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20160.56,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 92,
+      "question_id": "abc320_d",
+      "title": "Relative Position",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20891.15,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 93,
+      "question_id": "abc320_a",
+      "title": "Leyland Number",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 19799.81,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 94,
+      "question_id": "abc320_e",
+      "title": "Somen Nagashi",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 22247.66,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 95,
+      "question_id": "abc321_c",
+      "title": "321",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 18037.21,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 96,
+      "question_id": "abc321_e",
+      "title": "Complete Binary Tree",
+      "difficulty": "hard",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20496.54,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 97,
+      "question_id": "abc321_b",
+      "title": "Cutoff",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21842.15,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 98,
+      "question_id": "abc321_a",
+      "title": "321",
+      "difficulty": "easy",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 20454.27,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 99,
+      "question_id": "abc321_d",
+      "title": "Set Menu",
+      "difficulty": "medium",
+      "status": "PASS_DOCKER",
+      "passed": true,
+      "latency_ms": 21930.71,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    },
+    {
+      "index": 100,
+      "question_id": "abc322_d",
+      "title": "Polyomino",
+      "difficulty": "medium",
+      "status": "TLE_TIMEOUT",
+      "passed": false,
+      "latency_ms": 21032.71,
+      "generated_code": "class Solution:\n    def solve(self, *args):\n        return 0"
+    }
+  ]
+}

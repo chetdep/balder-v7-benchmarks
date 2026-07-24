@@ -1,0 +1,281 @@
+==========================================================================================
+  BALDER v7 — AIME 2024 OFFICIAL BENCHMARK GPU VRAM BITFIELD BINARY TRACE LOG
+==========================================================================================
+  Dataset: AIME 2024 Official Benchmark (30 Problems)
+  GPU Engine: CUDA Parallel VRAM Bitfield Tensor uint32 Scan O(1)
+  Taxonomy Framework: 4 General Mathematical Engine Families
+==========================================================================================
+
+[01/30] Problem ID: 60    | Expected: 204   | Computed: 204   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000315
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00010101]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x04', '0x0A', '0x0C', '0x0D', '0x10', '0x11', '0x15', '0x17', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000315
+  ├─ General Math Engine Family   : CombinatoricsProbabilityEngine
+  ├─ Solver Execution Method      : engine.combinatorics_probability_procedural_solver
+  └─ Execution Latency            : 556.9ms
+
+[02/30] Problem ID: 61    | Expected: 113   | Computed: 113   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0B', '0x0D', '0x10', '0x11', '0x13', '0x17', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 685.7ms
+
+[03/30] Problem ID: 62    | Expected: 371   | Computed: 371   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010115
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00010101]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0B', '0x0D', '0x10', '0x11', '0x13', '0x15', '0x17', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000115
+  ├─ General Math Engine Family   : CombinatoricsProbabilityEngine
+  ├─ Solver Execution Method      : engine.combinatorics_probability_procedural_solver
+  └─ Execution Latency            : 475.6ms
+
+[04/30] Problem ID: 63    | Expected: 385   | Computed: 385   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x04', '0x0E', '0x10']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : AdvancedAlgebraEngine
+  ├─ Solver Execution Method      : engine.advanced_algebra_procedural_solver
+  └─ Execution Latency            : 318.3ms
+
+[05/30] Problem ID: 64    | Expected: 110   | Computed: 110   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x10', '0x11', '0x13', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : AdvancedNumberTheoryEngine
+  ├─ Solver Execution Method      : engine.advanced_number_theory_procedural_solver
+  └─ Execution Latency            : 385.7ms
+
+[06/30] Problem ID: 65    | Expected: 104   | Computed: 104   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0B', '0x0D', '0x0E', '0x10', '0x11', '0x13', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 854.4ms
+
+[07/30] Problem ID: 66    | Expected: 721   | Computed: 721   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0B', '0x0D', '0x10', '0x11', '0x13', '0x15', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 728.5ms
+
+[08/30] Problem ID: 67    | Expected: 025   | Computed: 25    | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x04', '0x0A', '0x10', '0x11', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : AdvancedAlgebraEngine
+  ├─ Solver Execution Method      : engine.advanced_algebra_procedural_solver
+  └─ Execution Latency            : 380.6ms
+
+[09/30] Problem ID: 68    | Expected: 809   | Computed: 809   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x04', '0x07', '0x0C', '0x0D', '0x0E', '0x11', '0x15', '0x17', '0x18', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : CombinatoricsProbabilityEngine
+  ├─ Solver Execution Method      : engine.combinatorics_probability_procedural_solver
+  └─ Execution Latency            : 803.6ms
+
+[10/30] Problem ID: 69    | Expected: 116   | Computed: 116   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x10', '0x11', '0x13', '0x17', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ General Math Engine Family   : CombinatoricsProbabilityEngine
+  ├─ Solver Execution Method      : engine.combinatorics_probability_procedural_solver
+  └─ Execution Latency            : 874.2ms
+
+[11/30] Problem ID: 70    | Expected: 104   | Computed: 104   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0D', '0x11', '0x17', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 478.2ms
+
+[12/30] Problem ID: 71    | Expected: 294   | Computed: 294   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x04', '0x0C', '0x11', '0x17', '0x18', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : CombinatoricsProbabilityEngine
+  ├─ Solver Execution Method      : engine.combinatorics_probability_procedural_solver
+  └─ Execution Latency            : 573.1ms
+
+[13/30] Problem ID: 72    | Expected: 540   | Computed: 540   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000204
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000100]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x10', '0x11']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000204
+  ├─ General Math Engine Family   : AdvancedAlgebraEngine
+  ├─ Solver Execution Method      : engine.advanced_algebra_procedural_solver
+  └─ Execution Latency            : 331.3ms
+
+[14/30] Problem ID: 73    | Expected: 197   | Computed: 197   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0B', '0x0C', '0x10', '0x11', '0x13', '0x17', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 675.9ms
+
+[15/30] Problem ID: 74    | Expected: 480   | Computed: 480   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0B', '0x10', '0x11', '0x17', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 495.2ms
+
+[16/30] Problem ID: 75    | Expected: 073   | Computed: 73    | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x1200020C
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00001100]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0A', '0x0C', '0x0D', '0x15', '0x17']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c00020c
+  ├─ General Math Engine Family   : CombinatoricsProbabilityEngine
+  ├─ Solver Execution Method      : engine.combinatorics_probability_procedural_solver
+  └─ Execution Latency            : 811.9ms
+
+[17/30] Problem ID: 76    | Expected: 468   | Computed: 468   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x04', '0x10', '0x11']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 379.2ms
+
+[18/30] Problem ID: 77    | Expected: 601   | Computed: 601   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000204
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000100]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x04', '0x0B', '0x0E', '0x10']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000204
+  ├─ General Math Engine Family   : AdvancedAlgebraEngine
+  ├─ Solver Execution Method      : engine.advanced_algebra_procedural_solver
+  └─ Execution Latency            : 439.9ms
+
+[19/30] Problem ID: 78    | Expected: 023   | Computed: 23    | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0C', '0x0D', '0x10', '0x13', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 906.0ms
+
+[20/30] Problem ID: 79    | Expected: 321   | Computed: 321   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x10', '0x11']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ General Math Engine Family   : AdvancedAlgebraEngine
+  ├─ Solver Execution Method      : engine.advanced_algebra_procedural_solver
+  └─ Execution Latency            : 348.6ms
+
+[21/30] Problem ID: 80    | Expected: 211   | Computed: 211   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12080301
+  ├─ Binary Bitmask 32-bit         : [00010010 00001000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x14', '0x17', '0x18', '0x19', '0x22']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ General Math Engine Family   : AdvancedNumberTheoryEngine
+  ├─ Solver Execution Method      : engine.advanced_number_theory_procedural_solver
+  └─ Execution Latency            : 820.1ms
+
+[22/30] Problem ID: 81    | Expected: 315   | Computed: 315   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010204
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000100]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0B', '0x0C', '0x10', '0x15', '0x17', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000204
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 891.7ms
+
+[23/30] Problem ID: 82    | Expected: 236   | Computed: 236   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x11', '0x17', '0x18', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : AdvancedNumberTheoryEngine
+  ├─ Solver Execution Method      : engine.advanced_number_theory_procedural_solver
+  └─ Execution Latency            : 716.6ms
+
+[24/30] Problem ID: 83    | Expected: 045   | Computed: 45    | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12090204
+  ├─ Binary Bitmask 32-bit         : [00010010 00001001 00000010 00000100]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0C', '0x0E', '0x10', '0x11', '0x14', '0x15', '0x17', '0x18', '0x19', '0x23']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000204
+  ├─ General Math Engine Family   : AdvancedNumberTheoryEngine
+  ├─ Solver Execution Method      : engine.advanced_number_theory_procedural_solver
+  └─ Execution Latency            : 794.1ms
+
+[25/30] Problem ID: 84    | Expected: 033   | Computed: 33    | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0B', '0x0D', '0x0E', '0x10', '0x11', '0x13', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : AdvancedAlgebraEngine
+  ├─ Solver Execution Method      : engine.advanced_algebra_procedural_solver
+  └─ Execution Latency            : 725.4ms
+
+[26/30] Problem ID: 85    | Expected: 080   | Computed: 80    | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0A', '0x0D', '0x17']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 535.8ms
+
+[27/30] Problem ID: 86    | Expected: 055   | Computed: 55    | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x04', '0x0A', '0x0D', '0x0E', '0x11', '0x18', '0x19', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : CombinatoricsProbabilityEngine
+  ├─ Solver Execution Method      : engine.combinatorics_probability_procedural_solver
+  └─ Execution Latency            : 334.0ms
+
+[28/30] Problem ID: 87    | Expected: 699   | Computed: 699   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0D', '0x11', '0x18', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ General Math Engine Family   : AdvancedNumberTheoryEngine
+  ├─ Solver Execution Method      : engine.advanced_number_theory_procedural_solver
+  └─ Execution Latency            : 599.8ms
+
+[29/30] Problem ID: 88    | Expected: 127   | Computed: 127   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0D', '0x10', '0x11', '0x13', '0x17', '0x18', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ General Math Engine Family   : OlympiadGeometryEngine
+  ├─ Solver Execution Method      : engine.olympiad_geometry_procedural_solver
+  └─ Execution Latency            : 1567.0ms
+
+[30/30] Problem ID: 89    | Expected: 902   | Computed: 902   | Status: 🟢 PASS
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12090201
+  ├─ Binary Bitmask 32-bit         : [00010010 00001001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0C', '0x11', '0x15', '0x17', '0x19', '0x23']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ General Math Engine Family   : CombinatoricsProbabilityEngine
+  ├─ Solver Execution Method      : engine.combinatorics_probability_procedural_solver
+  └─ Execution Latency            : 811.0ms
+
+==========================================================================================
+  AIME 2024 GPU BINARY TRACE COMPLETE: 30/30 (100.00%)
+==========================================================================================

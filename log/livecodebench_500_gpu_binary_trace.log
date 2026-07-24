@@ -1,0 +1,791 @@
+==========================================================================================
+  BALDER v7 — LIVECODEBENCH 500 HARD COMPETITIVE PROGRAMMING EVALUATION
+==========================================================================================
+  Execution Timestamp: 2026-07-24 17:46:09
+  Dataset: LiveCodeBench 500 Cases (Hard / Competitive Programming)
+  Execution Harness: Docker Container python:3.11-slim (--network=none)
+==========================================================================================
+
+[001/500] ID: abc301_f_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Anti (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x09', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 26274.6ms
+
+[002/500] ID: abc301_a_v1 | Difficulty: easy   | Status: ⏳ TLE
+  ├─ Title                        : Overall Winner (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x17', '0x18', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 13042.0ms
+
+[003/500] ID: abc301_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : AtCoder Cards (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 13833.7ms
+
+[004/500] ID: abc301_d_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Bitmask (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x09', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 13946.2ms
+
+[005/500] ID: abc301_b_v1 | Difficulty: easy   | Status: ⏳ TLE
+  ├─ Title                        : Fill the Gaps (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x10', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 14426.1ms
+
+[006/500] ID: abc301_e_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Pac (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15955.2ms
+
+[007/500] ID: abc302_f_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Merge Set (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010317
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00010111]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x10', '0x17', '0x18', '0x19', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000317
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15761.4ms
+
+[008/500] ID: abc302_a_v1 | Difficulty: easy   | Status: ⏳ TLE
+  ├─ Title                        : Attack (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 14052.8ms
+
+[009/500] ID: abc302_d_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Impartial Gift (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15254.6ms
+
+[010/500] ID: abc302_e_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Isolation (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x13', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1A', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15256.5ms
+
+[011/500] ID: abc302_b_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Find snuke (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12090301
+  ├─ Binary Bitmask 32-bit         : [00010010 00001001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x14', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1A', '0x1C', '0x20', '0x23']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 16101.4ms
+
+[012/500] ID: abc302_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Almost Equal (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 13288.6ms
+
+[013/500] ID: abc303_e_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : A Gift From the Stars (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x13', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x1E', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 14996.8ms
+
+[014/500] ID: abc303_d_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Shift vs. CapsLock (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x13', '0x17', '0x18', '0x19', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 20891.2ms
+
+[015/500] ID: abc303_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Dash (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010317
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00010111]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x14', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000317
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 18951.2ms
+
+[016/500] ID: abc303_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Discord (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 17990.4ms
+
+[017/500] ID: abc303_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Similar String (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 11279.8ms
+
+[018/500] ID: abc304_d_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : A Piece of Cake (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15010.7ms
+
+[019/500] ID: abc304_e_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Good Graph (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020601
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000110 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x13', '0x14', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000601
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 12805.6ms
+
+[020/500] ID: abc304_a_v1 | Difficulty: easy   | Status: ⏳ TLE
+  ├─ Title                        : First Player (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000001
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000000 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x16', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000001
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 6316.6ms
+
+[021/500] ID: abc304_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Virus (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 14454.2ms
+
+[022/500] ID: abc304_b_v1 | Difficulty: easy   | Status: ⏳ TLE
+  ├─ Title                        : Subscribers (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 8011.4ms
+
+[023/500] ID: abc305_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Snuke the Cookie Picker (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x1A', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 17206.9ms
+
+[024/500] ID: abc305_d_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Sleep Log (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 16748.0ms
+
+[025/500] ID: abc305_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Water Station (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 16428.4ms
+
+[026/500] ID: abc305_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : ABCDEFG (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15032.6ms
+
+[027/500] ID: abc305_e_v1 | Difficulty: hard   | Status: 🟢 PASS
+  ├─ Title                        : Art Gallery on Graph (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x13', '0x14', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 16241.6ms
+
+[028/500] ID: abc306_e_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Best Performances (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 9859.6ms
+
+[029/500] ID: abc306_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Echo (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x17', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 9168.8ms
+
+[030/500] ID: abc306_d_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Poisonous Full (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x16', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 19354.1ms
+
+[031/500] ID: abc306_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Centers (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x10', '0x15', '0x16', '0x17', '0x18', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 11998.8ms
+
+[032/500] ID: abc306_b_v1 | Difficulty: easy   | Status: ⏳ TLE
+  ├─ Title                        : Base 2 (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 12322.5ms
+
+[033/500] ID: abc307_d_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Mismatched Parentheses (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010001
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000000 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000001
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 12104.1ms
+
+[034/500] ID: abc307_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Ideal Sheet (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 16342.9ms
+
+[035/500] ID: abc307_e_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Distinct Adjacent (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 11831.2ms
+
+[036/500] ID: abc307_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Weekly Records (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x1F']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 12961.8ms
+
+[037/500] ID: abc307_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : racecar (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 12336.8ms
+
+[038/500] ID: abc308_d_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Snuke Maze (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12090301
+  ├─ Binary Bitmask 32-bit         : [00010010 00001001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x10', '0x14', '0x17', '0x18', '0x19', '0x20', '0x23']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 20735.0ms
+
+[039/500] ID: abc308_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : New Scheme (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x10', '0x14', '0x17', '0x18', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 17816.0ms
+
+[040/500] ID: abc308_f_v1 | Difficulty: hard   | Status: 🟢 PASS
+  ├─ Title                        : Vouchers (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15612.4ms
+
+[041/500] ID: abc308_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Standings (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000001
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000000 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x16', '0x17', '0x18', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000001
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 14970.3ms
+
+[042/500] ID: abc308_e_v1 | Difficulty: hard   | Status: 🟢 PASS
+  ├─ Title                        : MEX (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x10', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 18565.2ms
+
+[043/500] ID: abc308_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Default Price (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 16212.8ms
+
+[044/500] ID: abc309_d_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Add One Edge (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x13', '0x17', '0x18', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 17652.8ms
+
+[045/500] ID: abc309_c_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Medicine (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x1C', '0x1F', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 18638.6ms
+
+[046/500] ID: abc309_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Nine (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 10937.4ms
+
+[047/500] ID: abc309_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Rotate (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000001
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000000 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000001
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 14724.2ms
+
+[048/500] ID: abc309_e_v1 | Difficulty: hard   | Status: 🟢 PASS
+  ├─ Title                        : Family and Insurance (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x14', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 12294.7ms
+
+[049/500] ID: abc310_f_v1 | Difficulty: hard   | Status: 🟢 PASS
+  ├─ Title                        : Make 10 Again (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 14295.8ms
+
+[050/500] ID: abc310_c_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Reversible (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 11539.2ms
+
+[051/500] ID: abc310_a_v1 | Difficulty: easy   | Status: ⏳ TLE
+  ├─ Title                        : Order Something Else (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1A', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 8616.5ms
+
+[052/500] ID: abc310_d_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Peaceful Teams (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 20014.1ms
+
+[053/500] ID: abc310_e_v1 | Difficulty: hard   | Status: 🟢 PASS
+  ├─ Title                        : NAND repeatedly (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 17409.0ms
+
+[054/500] ID: abc310_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Strictly Superior (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 18747.6ms
+
+[055/500] ID: abc311_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : First ABC (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 11628.7ms
+
+[056/500] ID: abc311_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Vacation Together (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x1F', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 16332.0ms
+
+[057/500] ID: abc311_c_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Find it! (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x13', '0x16', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 17492.1ms
+
+[058/500] ID: abc311_e_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Defect (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15624.1ms
+
+[059/500] ID: abc311_d_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Grid Ice Floor (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15224.6ms
+
+[060/500] ID: abc312_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Chord (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x16', '0x17', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 11547.9ms
+
+[061/500] ID: abc312_d_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Count Bracket Sequences (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x09', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15986.1ms
+
+[062/500] ID: abc312_e_v1 | Difficulty: hard   | Status: 🟢 PASS
+  ├─ Title                        : Tangency of Cuboids (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x10', '0x13', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15862.9ms
+
+[063/500] ID: abc312_c_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Invisible Hand (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15611.0ms
+
+[064/500] ID: abc312_f_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Cans and Openers (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 12859.3ms
+
+[065/500] ID: abc312_b_v1 | Difficulty: easy   | Status: ⏳ TLE
+  ├─ Title                        : TaK Code (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x09', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20', '0x23']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 15863.1ms
+
+[066/500] ID: abc313_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : To Be Saikyo (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 17917.6ms
+
+[067/500] ID: abc313_c_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Approximate Equalization 2 (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x19', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 16397.2ms
+
+[068/500] ID: abc313_b_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Who is Saikyo? (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x1E']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000101
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 14817.1ms
+
+[069/500] ID: abc314_e_v1 | Difficulty: hard   | Status: 🟢 PASS
+  ├─ Title                        : Roulettes (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x1C', '0x1D', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 25780.9ms
+
+[070/500] ID: abc314_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : 3.14 (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000001
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000000 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x16', '0x17', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000001
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 19864.5ms
+
+[071/500] ID: abc314_f_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : A Certain Game (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 22539.1ms
+
+[072/500] ID: abc314_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Roulette (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 20086.8ms
+
+[073/500] ID: abc314_c_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Rotate Colored Subsequence (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 10218.7ms
+
+[074/500] ID: abc314_d_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : LOWER (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 11458.3ms
+
+[075/500] ID: abc315_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : The Middle Day (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000217
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00010111]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x1A', '0x1C', '0x1F']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000217
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 19501.4ms
+
+[076/500] ID: abc315_d_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Magical Cookies (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 17438.1ms
+
+[077/500] ID: abc315_a_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : tcdr (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000001
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000000 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x17', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000001
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 18677.3ms
+
+[078/500] ID: abc315_e_v1 | Difficulty: hard   | Status: 🟢 PASS
+  ├─ Title                        : Prerequisites (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x05', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x10', '0x14', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 13179.0ms
+
+[079/500] ID: abc315_c_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Flavors (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 18745.1ms
+
+[080/500] ID: abc315_f_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Shortcuts (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x17', '0x18', '0x19', '0x1A', '0x1D']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 18066.3ms
+
+[081/500] ID: abc318_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : Blue Spring (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x19', '0x1C', '0x1F', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 22231.7ms
+
+[082/500] ID: abc318_e_v1 | Difficulty: hard   | Status: ⏳ TLE
+  ├─ Title                        : Sandwiches (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x0F', '0x10', '0x17', '0x18', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 22054.1ms
+
+[083/500] ID: abc318_b_v1 | Difficulty: easy   | Status: 🟢 PASS
+  ├─ Title                        : Overlapping sheets (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010001
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000000 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x19']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000001
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 21439.6ms
+
+[084/500] ID: abc318_a_v1 | Difficulty: easy   | Status: ⏳ TLE
+  ├─ Title                        : Full Moon (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x07', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x19', '0x1C', '0x1F', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000201
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 16784.6ms
+
+[085/500] ID: abc318_d_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : General Weighted Max Matching (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x13', '0x17', '0x18', '0x19', '0x1C']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 22735.1ms
+
+[086/500] ID: abc319_d_v1 | Difficulty: medium | Status: 🟢 PASS
+  ├─ Title                        : Minimum Width (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x16', '0x17', '0x18', '0x19', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 20500.9ms
+
+[087/500] ID: abc319_c_v1 | Difficulty: medium | Status: ⏳ TLE
+  ├─ Title                        : False Hope (Variant 1)
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12090301
+  ├─ Binary Bitmask 32-bit         : [00010010 00001001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x04', '0x05', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x10', '0x15', '0x17', '0x18', '0x1D', '0x20', '0x23']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c000301
+  ├─ Solver Family                : CompetitiveProgrammingEngine
+  └─ Docker Execution Latency     : 20378.1ms
+

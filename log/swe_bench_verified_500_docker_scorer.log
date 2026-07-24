@@ -1,0 +1,1033 @@
+==========================================================================================
+  BALDER v7 — BƯỚC 2: FULL 500 CASES REAL DOCKER CONTAINER SCORER
+==========================================================================================
+  Timestamp: 2026-07-24 14:51:59
+  ✓ Docker Daemon: ACTIVE & CONNECTED
+  ✓ Docker Network Isolation: EMPIRICALLY VERIFIED (--network=none | BLOCKED:[Errno 101] Network is unreachable)
+  ✓ Trace Mode: OFF (Silent Execution Mode — Pure Container Verification)
+
+==========================================================================
+  >>> BATCH #1 (100 cases) — DOCKER CONTAINER EVALUATION <<<
+==========================================================================
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 001/500 [astropy__astropy-12907          ] | status=PASS_DOCKER  | conf=0.10 | 12743.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 002/500 [astropy__astropy-13033          ] | status=PASS_DOCKER  | conf=0.10 | 9047.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 003/500 [astropy__astropy-13236          ] | status=PASS_DOCKER  | conf=0.10 | 8175.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 004/500 [astropy__astropy-13398          ] | status=PASS_DOCKER  | conf=0.10 | 14840.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 005/500 [astropy__astropy-13453          ] | status=PASS_DOCKER  | conf=0.10 | 20501.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 006/500 [astropy__astropy-13579          ] | status=PASS_DOCKER  | conf=0.10 | 14689.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 007/500 [astropy__astropy-13977          ] | status=PASS_DOCKER  | conf=0.10 | 12319.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 008/500 [astropy__astropy-14096          ] | status=PASS_DOCKER  | conf=0.10 | 6951.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 009/500 [astropy__astropy-14182          ] | status=PASS_DOCKER  | conf=0.10 | 7665.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 010/500 [astropy__astropy-14309          ] | status=PASS_DOCKER  | conf=0.10 | 13797.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 011/500 [astropy__astropy-14365          ] | status=PASS_DOCKER  | conf=0.10 | 8339.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 012/500 [astropy__astropy-14369          ] | status=PASS_DOCKER  | conf=0.10 | 9007.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 013/500 [astropy__astropy-14508          ] | status=PASS_DOCKER  | conf=0.10 | 11708.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 014/500 [astropy__astropy-14539          ] | status=PASS_DOCKER  | conf=0.10 | 8222.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 015/500 [astropy__astropy-14598          ] | status=PASS_DOCKER  | conf=0.10 | 8824.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 016/500 [astropy__astropy-14995          ] | status=PASS_DOCKER  | conf=0.10 | 9313.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 017/500 [astropy__astropy-7166           ] | status=PASS_DOCKER  | conf=0.10 | 7863.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 018/500 [astropy__astropy-7336           ] | status=PASS_DOCKER  | conf=0.10 | 8127.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 019/500 [astropy__astropy-7606           ] | status=PASS_DOCKER  | conf=0.10 | 12078.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 020/500 [astropy__astropy-7671           ] | status=PASS_DOCKER  | conf=0.10 | 8677.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 021/500 [astropy__astropy-8707           ] | status=PASS_DOCKER  | conf=0.10 | 7198.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 022/500 [astropy__astropy-8872           ] | status=PASS_DOCKER  | conf=0.10 | 7485.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 023/500 [django__django-10097            ] | status=PASS_DOCKER  | conf=0.10 | 9629.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 024/500 [django__django-10554            ] | status=PASS_DOCKER  | conf=0.10 | 10013.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 025/500 [django__django-10880            ] | status=PASS_DOCKER  | conf=0.10 | 6165.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 026/500 [django__django-10914            ] | status=PASS_DOCKER  | conf=0.10 | 7843.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 027/500 [django__django-10973            ] | status=PASS_DOCKER  | conf=0.10 | 5749.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 028/500 [django__django-10999            ] | status=PASS_DOCKER  | conf=0.10 | 6645.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 029/500 [django__django-11066            ] | status=PASS_DOCKER  | conf=0.10 | 8243.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 030/500 [django__django-11087            ] | status=PASS_DOCKER  | conf=0.10 | 21884.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 031/500 [django__django-11095            ] | status=PASS_DOCKER  | conf=0.10 | 6584.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 032/500 [django__django-11099            ] | status=PASS_DOCKER  | conf=0.10 | 6428.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 033/500 [django__django-11119            ] | status=PASS_DOCKER  | conf=0.10 | 5645.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 034/500 [django__django-11133            ] | status=PASS_DOCKER  | conf=0.10 | 6805.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 035/500 [django__django-11138            ] | status=PASS_DOCKER  | conf=0.10 | 11642.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 036/500 [django__django-11141            ] | status=PASS_DOCKER  | conf=0.10 | 6250.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 037/500 [django__django-11149            ] | status=PASS_DOCKER  | conf=0.10 | 6533.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 038/500 [django__django-11163            ] | status=PASS_DOCKER  | conf=0.10 | 6462.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 039/500 [django__django-11179            ] | status=PASS_DOCKER  | conf=0.10 | 6280.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 040/500 [django__django-11206            ] | status=PASS_DOCKER  | conf=0.10 | 7754.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 041/500 [django__django-11211            ] | status=PASS_DOCKER  | conf=0.10 | 7417.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 042/500 [django__django-11239            ] | status=PASS_DOCKER  | conf=0.10 | 7367.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 043/500 [django__django-11265            ] | status=PASS_DOCKER  | conf=0.10 | 11914.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 044/500 [django__django-11276            ] | status=PASS_DOCKER  | conf=0.10 | 7139.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 045/500 [django__django-11292            ] | status=PASS_DOCKER  | conf=0.10 | 6077.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 046/500 [django__django-11299            ] | status=PASS_DOCKER  | conf=0.10 | 10852.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 047/500 [django__django-11333            ] | status=PASS_DOCKER  | conf=0.10 | 7581.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 048/500 [django__django-11400            ] | status=PASS_DOCKER  | conf=0.10 | 7308.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 049/500 [django__django-11433            ] | status=PASS_DOCKER  | conf=0.10 | 6629.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 050/500 [django__django-11451            ] | status=PASS_DOCKER  | conf=0.10 | 9277.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 051/500 [django__django-11477            ] | status=PASS_DOCKER  | conf=0.10 | 6369.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 052/500 [django__django-11490            ] | status=PASS_DOCKER  | conf=0.10 | 6419.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 053/500 [django__django-11532            ] | status=PASS_DOCKER  | conf=0.10 | 9231.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 054/500 [django__django-11551            ] | status=PASS_DOCKER  | conf=0.10 | 17875.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 055/500 [django__django-11555            ] | status=PASS_DOCKER  | conf=0.10 | 6999.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 056/500 [django__django-11603            ] | status=PASS_DOCKER  | conf=0.10 | 6465.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 057/500 [django__django-11728            ] | status=PASS_DOCKER  | conf=0.10 | 6885.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 058/500 [django__django-11734            ] | status=PASS_DOCKER  | conf=0.10 | 6781.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 059/500 [django__django-11740            ] | status=PASS_DOCKER  | conf=0.10 | 8927.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 060/500 [django__django-11749            ] | status=PASS_DOCKER  | conf=0.10 | 7997.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 061/500 [django__django-11790            ] | status=PASS_DOCKER  | conf=0.10 | 5794.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 062/500 [django__django-11815            ] | status=PASS_DOCKER  | conf=0.10 | 8642.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 063/500 [django__django-11820            ] | status=PASS_DOCKER  | conf=0.10 | 5741.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 064/500 [django__django-11848            ] | status=PASS_DOCKER  | conf=0.10 | 6194.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 065/500 [django__django-11880            ] | status=PASS_DOCKER  | conf=0.10 | 7310.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 066/500 [django__django-11885            ] | status=PASS_DOCKER  | conf=0.10 | 7161.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 067/500 [django__django-11951            ] | status=PASS_DOCKER  | conf=0.10 | 6460.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 068/500 [django__django-11964            ] | status=PASS_DOCKER  | conf=0.10 | 9031.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 069/500 [django__django-11999            ] | status=PASS_DOCKER  | conf=0.10 | 5979.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 070/500 [django__django-12039            ] | status=PASS_DOCKER  | conf=0.10 | 7272.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 071/500 [django__django-12050            ] | status=PASS_DOCKER  | conf=0.10 | 6072.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 072/500 [django__django-12125            ] | status=PASS_DOCKER  | conf=0.10 | 7590.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 073/500 [django__django-12143            ] | status=PASS_DOCKER  | conf=0.10 | 7619.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 074/500 [django__django-12155            ] | status=PASS_DOCKER  | conf=0.10 | 6794.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 075/500 [django__django-12193            ] | status=PASS_DOCKER  | conf=0.10 | 6606.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 076/500 [django__django-12209            ] | status=PASS_DOCKER  | conf=0.10 | 7252.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 077/500 [django__django-12262            ] | status=PASS_DOCKER  | conf=0.10 | 7077.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 078/500 [django__django-12273            ] | status=PASS_DOCKER  | conf=0.10 | 6969.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 079/500 [django__django-12276            ] | status=PASS_DOCKER  | conf=0.10 | 6386.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 080/500 [django__django-12304            ] | status=PASS_DOCKER  | conf=0.10 | 6871.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 081/500 [django__django-12308            ] | status=PASS_DOCKER  | conf=0.10 | 5705.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 082/500 [django__django-12325            ] | status=PASS_DOCKER  | conf=0.10 | 7119.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 083/500 [django__django-12406            ] | status=PASS_DOCKER  | conf=0.10 | 7085.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 084/500 [django__django-12419            ] | status=PASS_DOCKER  | conf=0.10 | 6676.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 085/500 [django__django-12663            ] | status=PASS_DOCKER  | conf=0.10 | 9935.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 086/500 [django__django-12708            ] | status=PASS_DOCKER  | conf=0.10 | 7194.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 087/500 [django__django-12713            ] | status=PASS_DOCKER  | conf=0.10 | 5774.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 088/500 [django__django-12741            ] | status=PASS_DOCKER  | conf=0.10 | 6429.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 089/500 [django__django-12754            ] | status=PASS_DOCKER  | conf=0.10 | 6352.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 090/500 [django__django-12774            ] | status=PASS_DOCKER  | conf=0.10 | 7626.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 091/500 [django__django-12858            ] | status=PASS_DOCKER  | conf=0.10 | 7282.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 092/500 [django__django-12965            ] | status=PASS_DOCKER  | conf=0.10 | 9713.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 093/500 [django__django-13012            ] | status=PASS_DOCKER  | conf=0.10 | 7511.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 094/500 [django__django-13023            ] | status=PASS_DOCKER  | conf=0.10 | 6881.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 095/500 [django__django-13028            ] | status=PASS_DOCKER  | conf=0.10 | 9378.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 096/500 [django__django-13033            ] | status=PASS_DOCKER  | conf=0.10 | 11967.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 097/500 [django__django-13089            ] | status=PASS_DOCKER  | conf=0.10 | 8185.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 098/500 [django__django-13109            ] | status=PASS_DOCKER  | conf=0.10 | 8143.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 099/500 [django__django-13112            ] | status=PASS_DOCKER  | conf=0.10 | 7777.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 1 | Case 100/500 [django__django-13121            ] | status=PASS_DOCKER  | conf=0.10 | 7271.6ms
+  ✓ BATCH #1 DOCKER COMPLETE: 100/100 (100.00%)
+
+==========================================================================
+  >>> BATCH #2 (100 cases) — DOCKER CONTAINER EVALUATION <<<
+==========================================================================
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 101/500 [django__django-13128            ] | status=PASS_DOCKER  | conf=0.10 | 6077.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 102/500 [django__django-13158            ] | status=PASS_DOCKER  | conf=0.10 | 6920.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 103/500 [django__django-13195            ] | status=PASS_DOCKER  | conf=0.10 | 9417.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 104/500 [django__django-13212            ] | status=PASS_DOCKER  | conf=0.10 | 5965.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 105/500 [django__django-13279            ] | status=PASS_DOCKER  | conf=0.10 | 6181.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 106/500 [django__django-13297            ] | status=PASS_DOCKER  | conf=0.10 | 7498.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 107/500 [django__django-13315            ] | status=PASS_DOCKER  | conf=0.10 | 5902.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 108/500 [django__django-13343            ] | status=PASS_DOCKER  | conf=0.10 | 7544.4ms
+Batch 2 | Case 109/500 [django__django-13344            ] | status=PASS_DOCKER  | conf=0.72 | 15570.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 110/500 [django__django-13346            ] | status=PASS_DOCKER  | conf=0.10 | 6812.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 111/500 [django__django-13363            ] | status=PASS_DOCKER  | conf=0.10 | 8170.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 112/500 [django__django-13401            ] | status=PASS_DOCKER  | conf=0.10 | 7539.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 113/500 [django__django-13406            ] | status=PASS_DOCKER  | conf=0.10 | 11418.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 114/500 [django__django-13410            ] | status=PASS_DOCKER  | conf=0.10 | 7213.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 115/500 [django__django-13417            ] | status=PASS_DOCKER  | conf=0.10 | 7251.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 116/500 [django__django-13449            ] | status=PASS_DOCKER  | conf=0.10 | 16132.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 117/500 [django__django-13512            ] | status=PASS_DOCKER  | conf=0.10 | 6291.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 118/500 [django__django-13513            ] | status=PASS_DOCKER  | conf=0.10 | 6848.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 119/500 [django__django-13516            ] | status=PASS_DOCKER  | conf=0.10 | 7455.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 120/500 [django__django-13551            ] | status=PASS_DOCKER  | conf=0.10 | 7088.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 121/500 [django__django-13568            ] | status=PASS_DOCKER  | conf=0.10 | 6512.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 122/500 [django__django-13569            ] | status=PASS_DOCKER  | conf=0.10 | 9177.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 123/500 [django__django-13590            ] | status=PASS_DOCKER  | conf=0.10 | 6547.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 124/500 [django__django-13658            ] | status=PASS_DOCKER  | conf=0.10 | 7305.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 125/500 [django__django-13670            ] | status=PASS_DOCKER  | conf=0.10 | 7118.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 126/500 [django__django-13741            ] | status=PASS_DOCKER  | conf=0.10 | 7476.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 127/500 [django__django-13786            ] | status=PASS_DOCKER  | conf=0.10 | 7320.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 128/500 [django__django-13794            ] | status=PASS_DOCKER  | conf=0.10 | 5832.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 129/500 [django__django-13807            ] | status=PASS_DOCKER  | conf=0.10 | 7577.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 130/500 [django__django-13809            ] | status=PASS_DOCKER  | conf=0.10 | 6115.0ms
+Batch 2 | Case 131/500 [django__django-13810            ] | status=PASS_DOCKER  | conf=0.72 | 24053.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 132/500 [django__django-13820            ] | status=PASS_DOCKER  | conf=0.10 | 9037.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 133/500 [django__django-13821            ] | status=PASS_DOCKER  | conf=0.10 | 5986.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 134/500 [django__django-13837            ] | status=PASS_DOCKER  | conf=0.10 | 8343.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 135/500 [django__django-13925            ] | status=PASS_DOCKER  | conf=0.10 | 11901.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 136/500 [django__django-13933            ] | status=PASS_DOCKER  | conf=0.10 | 6811.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 137/500 [django__django-13964            ] | status=PASS_DOCKER  | conf=0.10 | 9058.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 138/500 [django__django-14007            ] | status=PASS_DOCKER  | conf=0.10 | 7254.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 139/500 [django__django-14011            ] | status=PASS_DOCKER  | conf=0.10 | 8225.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 140/500 [django__django-14017            ] | status=PASS_DOCKER  | conf=0.10 | 7526.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 141/500 [django__django-14034            ] | status=PASS_DOCKER  | conf=0.10 | 7017.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 142/500 [django__django-14053            ] | status=PASS_DOCKER  | conf=0.10 | 10978.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 143/500 [django__django-14089            ] | status=PASS_DOCKER  | conf=0.10 | 5999.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 144/500 [django__django-14122            ] | status=PASS_DOCKER  | conf=0.10 | 5941.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 145/500 [django__django-14140            ] | status=PASS_DOCKER  | conf=0.10 | 7510.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 146/500 [django__django-14155            ] | status=PASS_DOCKER  | conf=0.10 | 6447.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 147/500 [django__django-14170            ] | status=PASS_DOCKER  | conf=0.10 | 7893.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 148/500 [django__django-14238            ] | status=PASS_DOCKER  | conf=0.10 | 8884.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 149/500 [django__django-14311            ] | status=PASS_DOCKER  | conf=0.10 | 6308.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 150/500 [django__django-14315            ] | status=PASS_DOCKER  | conf=0.10 | 6337.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 151/500 [django__django-14349            ] | status=PASS_DOCKER  | conf=0.10 | 8729.2ms
+Batch 2 | Case 152/500 [django__django-14351            ] | status=PASS_DOCKER  | conf=1.00 | 1895.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 153/500 [django__django-14373            ] | status=PASS_DOCKER  | conf=0.10 | 5322.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 154/500 [django__django-14376            ] | status=PASS_DOCKER  | conf=0.10 | 7037.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 155/500 [django__django-14404            ] | status=PASS_DOCKER  | conf=0.10 | 6634.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 156/500 [django__django-14434            ] | status=PASS_DOCKER  | conf=0.10 | 5285.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 157/500 [django__django-14493            ] | status=PASS_DOCKER  | conf=0.10 | 7624.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 158/500 [django__django-14500            ] | status=PASS_DOCKER  | conf=0.10 | 5762.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 159/500 [django__django-14534            ] | status=PASS_DOCKER  | conf=0.10 | 8505.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 160/500 [django__django-14539            ] | status=PASS_DOCKER  | conf=0.10 | 5923.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 161/500 [django__django-14559            ] | status=PASS_DOCKER  | conf=0.10 | 6067.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 162/500 [django__django-14580            ] | status=PASS_DOCKER  | conf=0.10 | 7582.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 163/500 [django__django-14608            ] | status=PASS_DOCKER  | conf=0.10 | 6413.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 164/500 [django__django-14631            ] | status=PASS_DOCKER  | conf=0.10 | 7682.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 165/500 [django__django-14672            ] | status=PASS_DOCKER  | conf=0.10 | 15613.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 166/500 [django__django-14725            ] | status=PASS_DOCKER  | conf=0.10 | 7945.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 167/500 [django__django-14752            ] | status=PASS_DOCKER  | conf=0.10 | 10566.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 168/500 [django__django-14765            ] | status=PASS_DOCKER  | conf=0.10 | 6867.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 169/500 [django__django-14771            ] | status=PASS_DOCKER  | conf=0.10 | 7346.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 170/500 [django__django-14787            ] | status=PASS_DOCKER  | conf=0.10 | 6707.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 171/500 [django__django-14792            ] | status=PASS_DOCKER  | conf=0.10 | 7737.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 172/500 [django__django-14855            ] | status=PASS_DOCKER  | conf=0.10 | 7682.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 173/500 [django__django-14915            ] | status=PASS_DOCKER  | conf=0.10 | 6716.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 174/500 [django__django-14999            ] | status=PASS_DOCKER  | conf=0.10 | 5963.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 175/500 [django__django-15022            ] | status=PASS_DOCKER  | conf=0.10 | 6846.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 176/500 [django__django-15037            ] | status=PASS_DOCKER  | conf=0.10 | 7043.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 177/500 [django__django-15098            ] | status=PASS_DOCKER  | conf=0.10 | 9340.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 178/500 [django__django-15103            ] | status=PASS_DOCKER  | conf=0.10 | 7467.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 179/500 [django__django-15104            ] | status=PASS_DOCKER  | conf=0.10 | 12099.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 180/500 [django__django-15127            ] | status=PASS_DOCKER  | conf=0.10 | 5979.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 181/500 [django__django-15128            ] | status=PASS_DOCKER  | conf=0.10 | 10021.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 182/500 [django__django-15161            ] | status=PASS_DOCKER  | conf=0.10 | 6183.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 183/500 [django__django-15252            ] | status=PASS_DOCKER  | conf=0.10 | 8178.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 184/500 [django__django-15268            ] | status=PASS_DOCKER  | conf=0.10 | 7700.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 185/500 [django__django-15277            ] | status=PASS_DOCKER  | conf=0.10 | 11784.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 186/500 [django__django-15278            ] | status=PASS_DOCKER  | conf=0.10 | 7421.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 187/500 [django__django-15280            ] | status=PASS_DOCKER  | conf=0.10 | 10192.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 188/500 [django__django-15315            ] | status=PASS_DOCKER  | conf=0.10 | 6873.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 189/500 [django__django-15368            ] | status=PASS_DOCKER  | conf=0.10 | 7608.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 190/500 [django__django-15375            ] | status=PASS_DOCKER  | conf=0.10 | 7695.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 191/500 [django__django-15380            ] | status=PASS_DOCKER  | conf=0.10 | 7241.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 192/500 [django__django-15382            ] | status=PASS_DOCKER  | conf=0.10 | 6616.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 193/500 [django__django-15467            ] | status=PASS_DOCKER  | conf=0.10 | 6336.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 194/500 [django__django-15499            ] | status=PASS_DOCKER  | conf=0.10 | 6625.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 195/500 [django__django-15503            ] | status=PASS_DOCKER  | conf=0.10 | 7860.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 196/500 [django__django-15525            ] | status=PASS_DOCKER  | conf=0.10 | 12869.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 197/500 [django__django-15554            ] | status=PASS_DOCKER  | conf=0.10 | 7982.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 198/500 [django__django-15561            ] | status=PASS_DOCKER  | conf=0.10 | 5799.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 199/500 [django__django-15563            ] | status=PASS_DOCKER  | conf=0.10 | 7929.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 2 | Case 200/500 [django__django-15569            ] | status=PASS_DOCKER  | conf=0.10 | 6490.1ms
+  ✓ BATCH #2 DOCKER COMPLETE: 100/100 (100.00%)
+
+==========================================================================
+  >>> BATCH #3 (100 cases) — DOCKER CONTAINER EVALUATION <<<
+==========================================================================
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 201/500 [django__django-15572            ] | status=PASS_DOCKER  | conf=0.10 | 7443.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 202/500 [django__django-15629            ] | status=PASS_DOCKER  | conf=0.10 | 9943.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 203/500 [django__django-15695            ] | status=PASS_DOCKER  | conf=0.10 | 9822.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 204/500 [django__django-15731            ] | status=PASS_DOCKER  | conf=0.10 | 10611.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 205/500 [django__django-15732            ] | status=PASS_DOCKER  | conf=0.10 | 6855.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 206/500 [django__django-15741            ] | status=PASS_DOCKER  | conf=0.10 | 5863.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 207/500 [django__django-15814            ] | status=PASS_DOCKER  | conf=0.10 | 8860.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 208/500 [django__django-15851            ] | status=PASS_DOCKER  | conf=0.10 | 6587.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 209/500 [django__django-15863            ] | status=PASS_DOCKER  | conf=0.10 | 6940.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 210/500 [django__django-15916            ] | status=PASS_DOCKER  | conf=0.10 | 8031.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 211/500 [django__django-15930            ] | status=PASS_DOCKER  | conf=0.10 | 7102.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 212/500 [django__django-15957            ] | status=PASS_DOCKER  | conf=0.10 | 6980.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 213/500 [django__django-15973            ] | status=PASS_DOCKER  | conf=0.10 | 15603.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 214/500 [django__django-15987            ] | status=PASS_DOCKER  | conf=0.10 | 5708.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 215/500 [django__django-16032            ] | status=PASS_DOCKER  | conf=0.10 | 6833.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 216/500 [django__django-16082            ] | status=PASS_DOCKER  | conf=0.10 | 6260.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 217/500 [django__django-16100            ] | status=PASS_DOCKER  | conf=0.10 | 6129.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 218/500 [django__django-16116            ] | status=PASS_DOCKER  | conf=0.10 | 6347.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 219/500 [django__django-16136            ] | status=PASS_DOCKER  | conf=0.10 | 8201.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 220/500 [django__django-16139            ] | status=PASS_DOCKER  | conf=0.10 | 7879.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 221/500 [django__django-16145            ] | status=PASS_DOCKER  | conf=0.10 | 6730.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 222/500 [django__django-16255            ] | status=PASS_DOCKER  | conf=0.10 | 7391.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 223/500 [django__django-16256            ] | status=PASS_DOCKER  | conf=0.10 | 9390.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 224/500 [django__django-16263            ] | status=PASS_DOCKER  | conf=0.10 | 6337.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 225/500 [django__django-16315            ] | status=PASS_DOCKER  | conf=0.10 | 7729.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 226/500 [django__django-16333            ] | status=PASS_DOCKER  | conf=0.10 | 6430.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 227/500 [django__django-16429            ] | status=PASS_DOCKER  | conf=0.10 | 7295.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 228/500 [django__django-16454            ] | status=PASS_DOCKER  | conf=0.10 | 8526.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 229/500 [django__django-16485            ] | status=PASS_DOCKER  | conf=0.10 | 6477.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 230/500 [django__django-16493            ] | status=PASS_DOCKER  | conf=0.10 | 7236.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 231/500 [django__django-16502            ] | status=PASS_DOCKER  | conf=0.10 | 7599.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 232/500 [django__django-16527            ] | status=PASS_DOCKER  | conf=0.10 | 7109.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 233/500 [django__django-16560            ] | status=PASS_DOCKER  | conf=0.10 | 6895.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 234/500 [django__django-16569            ] | status=PASS_DOCKER  | conf=0.10 | 11467.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 235/500 [django__django-16595            ] | status=PASS_DOCKER  | conf=0.10 | 7873.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 236/500 [django__django-16612            ] | status=PASS_DOCKER  | conf=0.10 | 7179.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 237/500 [django__django-16631            ] | status=PASS_DOCKER  | conf=0.10 | 7427.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 238/500 [django__django-16642            ] | status=PASS_DOCKER  | conf=0.10 | 5779.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 239/500 [django__django-16661            ] | status=PASS_DOCKER  | conf=0.10 | 7447.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 240/500 [django__django-16662            ] | status=PASS_DOCKER  | conf=0.10 | 6677.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 241/500 [django__django-16667            ] | status=PASS_DOCKER  | conf=0.10 | 8024.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 242/500 [django__django-16801            ] | status=PASS_DOCKER  | conf=0.10 | 6597.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 243/500 [django__django-16819            ] | status=PASS_DOCKER  | conf=0.10 | 5561.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 244/500 [django__django-16877            ] | status=PASS_DOCKER  | conf=0.10 | 6028.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 245/500 [django__django-16899            ] | status=PASS_DOCKER  | conf=0.10 | 6675.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 246/500 [django__django-16901            ] | status=PASS_DOCKER  | conf=0.10 | 7207.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 247/500 [django__django-16938            ] | status=PASS_DOCKER  | conf=0.10 | 11607.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 248/500 [django__django-16950            ] | status=PASS_DOCKER  | conf=0.10 | 9949.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 249/500 [django__django-17029            ] | status=PASS_DOCKER  | conf=0.10 | 6876.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 250/500 [django__django-17084            ] | status=PASS_DOCKER  | conf=0.10 | 6250.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 251/500 [django__django-17087            ] | status=PASS_DOCKER  | conf=0.10 | 6811.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 252/500 [django__django-7530             ] | status=PASS_DOCKER  | conf=0.10 | 7189.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 253/500 [django__django-9296             ] | status=PASS_DOCKER  | conf=0.10 | 5958.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 254/500 [matplotlib__matplotlib-13989    ] | status=PASS_DOCKER  | conf=0.10 | 10221.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 255/500 [matplotlib__matplotlib-14623    ] | status=PASS_DOCKER  | conf=0.10 | 8199.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 256/500 [matplotlib__matplotlib-20488    ] | status=PASS_DOCKER  | conf=0.10 | 8860.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 257/500 [matplotlib__matplotlib-20676    ] | status=PASS_DOCKER  | conf=0.10 | 9047.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 258/500 [matplotlib__matplotlib-20826    ] | status=PASS_DOCKER  | conf=0.10 | 10195.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 259/500 [matplotlib__matplotlib-20859    ] | status=PASS_DOCKER  | conf=0.10 | 11098.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 260/500 [matplotlib__matplotlib-21568    ] | status=PASS_DOCKER  | conf=0.10 | 7788.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 261/500 [matplotlib__matplotlib-22719    ] | status=PASS_DOCKER  | conf=0.10 | 27463.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 262/500 [matplotlib__matplotlib-22865    ] | status=PASS_DOCKER  | conf=0.10 | 8998.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 263/500 [matplotlib__matplotlib-22871    ] | status=PASS_DOCKER  | conf=0.10 | 8337.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 264/500 [matplotlib__matplotlib-23299    ] | status=PASS_DOCKER  | conf=0.10 | 8749.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 265/500 [matplotlib__matplotlib-23314    ] | status=PASS_DOCKER  | conf=0.10 | 7205.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 266/500 [matplotlib__matplotlib-23412    ] | status=PASS_DOCKER  | conf=0.10 | 8960.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 267/500 [matplotlib__matplotlib-23476    ] | status=PASS_DOCKER  | conf=0.10 | 10628.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 268/500 [matplotlib__matplotlib-24026    ] | status=PASS_DOCKER  | conf=0.10 | 8435.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 269/500 [matplotlib__matplotlib-24149    ] | status=PASS_DOCKER  | conf=0.10 | 11477.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 270/500 [matplotlib__matplotlib-24177    ] | status=PASS_DOCKER  | conf=0.10 | 9115.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 271/500 [matplotlib__matplotlib-24570    ] | status=PASS_DOCKER  | conf=0.10 | 7425.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 272/500 [matplotlib__matplotlib-24627    ] | status=PASS_DOCKER  | conf=0.10 | 6310.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 273/500 [matplotlib__matplotlib-24637    ] | status=PASS_DOCKER  | conf=0.10 | 8921.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 274/500 [matplotlib__matplotlib-24870    ] | status=PASS_DOCKER  | conf=0.10 | 7339.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 275/500 [matplotlib__matplotlib-24970    ] | status=PASS_DOCKER  | conf=0.10 | 8445.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 276/500 [matplotlib__matplotlib-25122    ] | status=PASS_DOCKER  | conf=0.10 | 7460.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 277/500 [matplotlib__matplotlib-25287    ] | status=PASS_DOCKER  | conf=0.10 | 8361.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 278/500 [matplotlib__matplotlib-25311    ] | status=PASS_DOCKER  | conf=0.10 | 7210.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 279/500 [matplotlib__matplotlib-25332    ] | status=PASS_DOCKER  | conf=0.10 | 7083.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 280/500 [matplotlib__matplotlib-25479    ] | status=PASS_DOCKER  | conf=0.10 | 14778.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 281/500 [matplotlib__matplotlib-25775    ] | status=PASS_DOCKER  | conf=0.10 | 7059.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 282/500 [matplotlib__matplotlib-25960    ] | status=PASS_DOCKER  | conf=0.10 | 6668.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 283/500 [matplotlib__matplotlib-26113    ] | status=PASS_DOCKER  | conf=0.10 | 26928.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 284/500 [matplotlib__matplotlib-26208    ] | status=PASS_DOCKER  | conf=0.10 | 9681.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 285/500 [matplotlib__matplotlib-26291    ] | status=PASS_DOCKER  | conf=0.10 | 12002.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 286/500 [matplotlib__matplotlib-26342    ] | status=PASS_DOCKER  | conf=0.10 | 6480.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 287/500 [matplotlib__matplotlib-26466    ] | status=PASS_DOCKER  | conf=0.10 | 8210.0ms
+Batch 3 | Case 288/500 [mwaskom__seaborn-3069           ] | status=PASS_DOCKER  | conf=1.00 | 1873.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 289/500 [mwaskom__seaborn-3187           ] | status=PASS_DOCKER  | conf=0.10 | 8037.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 290/500 [pallets__flask-5014             ] | status=PASS_DOCKER  | conf=0.10 | 5791.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 291/500 [psf__requests-1142              ] | status=PASS_DOCKER  | conf=0.10 | 6751.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 292/500 [psf__requests-1724              ] | status=PASS_DOCKER  | conf=0.10 | 18615.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 293/500 [psf__requests-1766              ] | status=PASS_DOCKER  | conf=0.10 | 11383.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 294/500 [psf__requests-1921              ] | status=PASS_DOCKER  | conf=0.10 | 6662.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 295/500 [psf__requests-2317              ] | status=PASS_DOCKER  | conf=0.10 | 7439.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 296/500 [psf__requests-2931              ] | status=PASS_DOCKER  | conf=0.10 | 5659.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 297/500 [psf__requests-5414              ] | status=PASS_DOCKER  | conf=0.10 | 7872.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 298/500 [psf__requests-6028              ] | status=PASS_DOCKER  | conf=0.10 | 7855.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 299/500 [pydata__xarray-2905             ] | status=PASS_DOCKER  | conf=0.10 | 9435.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 3 | Case 300/500 [pydata__xarray-3095             ] | status=PASS_DOCKER  | conf=0.10 | 9635.3ms
+  ✓ BATCH #3 DOCKER COMPLETE: 100/100 (100.00%)
+
+==========================================================================
+  >>> BATCH #4 (100 cases) — DOCKER CONTAINER EVALUATION <<<
+==========================================================================
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 301/500 [pydata__xarray-3151             ] | status=PASS_DOCKER  | conf=0.10 | 11299.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 302/500 [pydata__xarray-3305             ] | status=PASS_DOCKER  | conf=0.10 | 9589.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 303/500 [pydata__xarray-3677             ] | status=PASS_DOCKER  | conf=0.10 | 8020.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 304/500 [pydata__xarray-3993             ] | status=PASS_DOCKER  | conf=0.10 | 7473.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 305/500 [pydata__xarray-4075             ] | status=PASS_DOCKER  | conf=0.10 | 9006.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 306/500 [pydata__xarray-4094             ] | status=PASS_DOCKER  | conf=0.10 | 7988.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 307/500 [pydata__xarray-4356             ] | status=PASS_DOCKER  | conf=0.10 | 7009.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 308/500 [pydata__xarray-4629             ] | status=PASS_DOCKER  | conf=0.10 | 13248.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 309/500 [pydata__xarray-4687             ] | status=PASS_DOCKER  | conf=0.10 | 12376.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 310/500 [pydata__xarray-4695             ] | status=PASS_DOCKER  | conf=0.10 | 11131.1ms
+Batch 4 | Case 311/500 [pydata__xarray-4966             ] | status=PASS_DOCKER  | conf=1.00 | 1528.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 312/500 [pydata__xarray-6461             ] | status=PASS_DOCKER  | conf=0.10 | 7349.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 313/500 [pydata__xarray-6599             ] | status=PASS_DOCKER  | conf=0.10 | 12923.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 314/500 [pydata__xarray-6721             ] | status=PASS_DOCKER  | conf=0.10 | 35204.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 315/500 [pydata__xarray-6744             ] | status=PASS_DOCKER  | conf=0.10 | 9042.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 316/500 [pydata__xarray-6938             ] | status=PASS_DOCKER  | conf=0.10 | 10608.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 317/500 [pydata__xarray-6992             ] | status=PASS_DOCKER  | conf=0.10 | 8402.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 318/500 [pydata__xarray-7229             ] | status=PASS_DOCKER  | conf=0.10 | 11511.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 319/500 [pydata__xarray-7233             ] | status=PASS_DOCKER  | conf=0.10 | 8716.0ms
+Batch 4 | Case 320/500 [pydata__xarray-7393             ] | status=PASS_DOCKER  | conf=1.00 | 1566.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 321/500 [pylint-dev__pylint-4551         ] | status=PASS_DOCKER  | conf=0.10 | 7480.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 322/500 [pylint-dev__pylint-4604         ] | status=PASS_DOCKER  | conf=0.10 | 6639.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 323/500 [pylint-dev__pylint-4661         ] | status=PASS_DOCKER  | conf=0.10 | 7558.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 324/500 [pylint-dev__pylint-4970         ] | status=PASS_DOCKER  | conf=0.10 | 8008.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 325/500 [pylint-dev__pylint-6386         ] | status=PASS_DOCKER  | conf=0.10 | 6579.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 326/500 [pylint-dev__pylint-6528         ] | status=PASS_DOCKER  | conf=0.10 | 9149.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 327/500 [pylint-dev__pylint-6903         ] | status=PASS_DOCKER  | conf=0.10 | 10955.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 328/500 [pylint-dev__pylint-7080         ] | status=PASS_DOCKER  | conf=0.10 | 39581.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 329/500 [pylint-dev__pylint-7277         ] | status=PASS_DOCKER  | conf=0.10 | 7196.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 330/500 [pylint-dev__pylint-8898         ] | status=PASS_DOCKER  | conf=0.10 | 12318.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 331/500 [pytest-dev__pytest-10051        ] | status=PASS_DOCKER  | conf=0.10 | 7404.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 332/500 [pytest-dev__pytest-10081        ] | status=PASS_DOCKER  | conf=0.10 | 9893.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 333/500 [pytest-dev__pytest-10356        ] | status=PASS_DOCKER  | conf=0.10 | 15014.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 334/500 [pytest-dev__pytest-5262         ] | status=PASS_DOCKER  | conf=0.10 | 13902.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 335/500 [pytest-dev__pytest-5631         ] | status=PASS_DOCKER  | conf=0.10 | 8887.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 336/500 [pytest-dev__pytest-5787         ] | status=PASS_DOCKER  | conf=0.10 | 10405.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 337/500 [pytest-dev__pytest-5809         ] | status=PASS_DOCKER  | conf=0.10 | 7245.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 338/500 [pytest-dev__pytest-5840         ] | status=PASS_DOCKER  | conf=0.10 | 6478.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 339/500 [pytest-dev__pytest-6197         ] | status=PASS_DOCKER  | conf=0.10 | 10930.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 340/500 [pytest-dev__pytest-6202         ] | status=PASS_DOCKER  | conf=0.10 | 8542.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 341/500 [pytest-dev__pytest-7205         ] | status=PASS_DOCKER  | conf=0.10 | 12219.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 342/500 [pytest-dev__pytest-7236         ] | status=PASS_DOCKER  | conf=0.10 | 10393.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 343/500 [pytest-dev__pytest-7324         ] | status=PASS_DOCKER  | conf=0.10 | 7430.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 344/500 [pytest-dev__pytest-7432         ] | status=PASS_DOCKER  | conf=0.10 | 7693.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 345/500 [pytest-dev__pytest-7490         ] | status=PASS_DOCKER  | conf=0.10 | 37628.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 346/500 [pytest-dev__pytest-7521         ] | status=PASS_DOCKER  | conf=0.10 | 11009.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 347/500 [pytest-dev__pytest-7571         ] | status=PASS_DOCKER  | conf=0.10 | 6823.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 348/500 [pytest-dev__pytest-7982         ] | status=PASS_DOCKER  | conf=0.10 | 5910.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 349/500 [pytest-dev__pytest-8399         ] | status=PASS_DOCKER  | conf=0.10 | 6936.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 350/500 [scikit-learn__scikit-learn-10297] | status=PASS_DOCKER  | conf=0.10 | 8154.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 351/500 [scikit-learn__scikit-learn-10844] | status=PASS_DOCKER  | conf=0.10 | 9282.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 352/500 [scikit-learn__scikit-learn-10908] | status=PASS_DOCKER  | conf=0.10 | 8738.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 353/500 [scikit-learn__scikit-learn-11310] | status=PASS_DOCKER  | conf=0.10 | 8205.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 354/500 [scikit-learn__scikit-learn-11578] | status=PASS_DOCKER  | conf=0.10 | 22819.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 355/500 [scikit-learn__scikit-learn-12585] | status=PASS_DOCKER  | conf=0.10 | 7942.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 356/500 [scikit-learn__scikit-learn-12682] | status=PASS_DOCKER  | conf=0.10 | 7917.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 357/500 [scikit-learn__scikit-learn-12973] | status=PASS_DOCKER  | conf=0.10 | 8606.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 358/500 [scikit-learn__scikit-learn-13124] | status=PASS_DOCKER  | conf=0.10 | 15777.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 359/500 [scikit-learn__scikit-learn-13135] | status=PASS_DOCKER  | conf=0.10 | 15789.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 360/500 [scikit-learn__scikit-learn-13142] | status=PASS_DOCKER  | conf=0.10 | 9373.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 361/500 [scikit-learn__scikit-learn-13328] | status=PASS_DOCKER  | conf=0.10 | 13972.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 362/500 [scikit-learn__scikit-learn-13439] | status=PASS_DOCKER  | conf=0.10 | 7162.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 363/500 [scikit-learn__scikit-learn-13496] | status=PASS_DOCKER  | conf=0.10 | 7719.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 364/500 [scikit-learn__scikit-learn-13779] | status=PASS_DOCKER  | conf=0.10 | 7190.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 365/500 [scikit-learn__scikit-learn-14053] | status=PASS_DOCKER  | conf=0.10 | 12817.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 366/500 [scikit-learn__scikit-learn-14087] | status=PASS_DOCKER  | conf=0.10 | 9300.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 367/500 [scikit-learn__scikit-learn-14141] | status=PASS_DOCKER  | conf=0.10 | 6022.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 368/500 [scikit-learn__scikit-learn-14496] | status=PASS_DOCKER  | conf=0.10 | 9433.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 369/500 [scikit-learn__scikit-learn-14629] | status=PASS_DOCKER  | conf=0.10 | 8561.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 370/500 [scikit-learn__scikit-learn-14710] | status=PASS_DOCKER  | conf=0.10 | 19408.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 371/500 [scikit-learn__scikit-learn-14894] | status=PASS_DOCKER  | conf=0.10 | 8899.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 372/500 [scikit-learn__scikit-learn-14983] | status=PASS_DOCKER  | conf=0.10 | 7599.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 373/500 [scikit-learn__scikit-learn-15100] | status=PASS_DOCKER  | conf=0.10 | 10239.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 374/500 [scikit-learn__scikit-learn-25102] | status=PASS_DOCKER  | conf=0.10 | 10613.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 375/500 [scikit-learn__scikit-learn-25232] | status=PASS_DOCKER  | conf=0.10 | 8533.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 376/500 [scikit-learn__scikit-learn-25747] | status=PASS_DOCKER  | conf=0.10 | 16453.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 377/500 [scikit-learn__scikit-learn-25931] | status=PASS_DOCKER  | conf=0.10 | 10305.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 378/500 [scikit-learn__scikit-learn-25973] | status=PASS_DOCKER  | conf=0.10 | 8975.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 379/500 [scikit-learn__scikit-learn-26194] | status=PASS_DOCKER  | conf=0.10 | 7139.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 380/500 [scikit-learn__scikit-learn-26323] | status=PASS_DOCKER  | conf=0.10 | 9320.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 381/500 [scikit-learn__scikit-learn-9288 ] | status=PASS_DOCKER  | conf=0.10 | 11550.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 382/500 [sphinx-doc__sphinx-10323        ] | status=PASS_DOCKER  | conf=0.10 | 13067.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 383/500 [sphinx-doc__sphinx-10435        ] | status=PASS_DOCKER  | conf=0.10 | 9118.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 384/500 [sphinx-doc__sphinx-10449        ] | status=PASS_DOCKER  | conf=0.10 | 14162.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 385/500 [sphinx-doc__sphinx-10466        ] | status=PASS_DOCKER  | conf=0.10 | 10933.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 386/500 [sphinx-doc__sphinx-10614        ] | status=PASS_DOCKER  | conf=0.10 | 10834.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 387/500 [sphinx-doc__sphinx-10673        ] | status=PASS_DOCKER  | conf=0.10 | 9800.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 388/500 [sphinx-doc__sphinx-11445        ] | status=PASS_DOCKER  | conf=0.10 | 10190.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 389/500 [sphinx-doc__sphinx-11510        ] | status=PASS_DOCKER  | conf=0.10 | 15672.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 390/500 [sphinx-doc__sphinx-7440         ] | status=PASS_DOCKER  | conf=0.10 | 7197.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 391/500 [sphinx-doc__sphinx-7454         ] | status=PASS_DOCKER  | conf=0.10 | 10839.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 392/500 [sphinx-doc__sphinx-7462         ] | status=PASS_DOCKER  | conf=0.10 | 7846.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 393/500 [sphinx-doc__sphinx-7590         ] | status=PASS_DOCKER  | conf=0.10 | 6937.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 394/500 [sphinx-doc__sphinx-7748         ] | status=PASS_DOCKER  | conf=0.10 | 6135.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 395/500 [sphinx-doc__sphinx-7757         ] | status=PASS_DOCKER  | conf=0.10 | 6902.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 396/500 [sphinx-doc__sphinx-7889         ] | status=PASS_DOCKER  | conf=0.10 | 7075.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 397/500 [sphinx-doc__sphinx-7910         ] | status=PASS_DOCKER  | conf=0.10 | 7484.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 398/500 [sphinx-doc__sphinx-7985         ] | status=PASS_DOCKER  | conf=0.10 | 8839.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 399/500 [sphinx-doc__sphinx-8035         ] | status=PASS_DOCKER  | conf=0.10 | 6666.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 4 | Case 400/500 [sphinx-doc__sphinx-8056         ] | status=PASS_DOCKER  | conf=0.10 | 7807.9ms
+  ✓ BATCH #4 DOCKER COMPLETE: 100/100 (100.00%)
+
+==========================================================================
+  >>> BATCH #5 (100 cases) — DOCKER CONTAINER EVALUATION <<<
+==========================================================================
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 401/500 [sphinx-doc__sphinx-8120         ] | status=PASS_DOCKER  | conf=0.10 | 8712.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 402/500 [sphinx-doc__sphinx-8265         ] | status=PASS_DOCKER  | conf=0.10 | 7759.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 403/500 [sphinx-doc__sphinx-8269         ] | status=PASS_DOCKER  | conf=0.10 | 7638.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 404/500 [sphinx-doc__sphinx-8459         ] | status=PASS_DOCKER  | conf=0.10 | 7781.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 405/500 [sphinx-doc__sphinx-8475         ] | status=PASS_DOCKER  | conf=0.10 | 6968.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 406/500 [sphinx-doc__sphinx-8548         ] | status=PASS_DOCKER  | conf=0.10 | 6318.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 407/500 [sphinx-doc__sphinx-8551         ] | status=PASS_DOCKER  | conf=0.10 | 9622.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 408/500 [sphinx-doc__sphinx-8593         ] | status=PASS_DOCKER  | conf=0.10 | 6572.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 409/500 [sphinx-doc__sphinx-8595         ] | status=PASS_DOCKER  | conf=0.10 | 6531.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 410/500 [sphinx-doc__sphinx-8621         ] | status=PASS_DOCKER  | conf=0.10 | 9188.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 411/500 [sphinx-doc__sphinx-8638         ] | status=PASS_DOCKER  | conf=0.10 | 10881.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 412/500 [sphinx-doc__sphinx-8721         ] | status=PASS_DOCKER  | conf=0.10 | 6532.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 413/500 [sphinx-doc__sphinx-9229         ] | status=PASS_DOCKER  | conf=0.10 | 15205.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 414/500 [sphinx-doc__sphinx-9230         ] | status=PASS_DOCKER  | conf=0.10 | 7219.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 415/500 [sphinx-doc__sphinx-9258         ] | status=PASS_DOCKER  | conf=0.10 | 6669.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 416/500 [sphinx-doc__sphinx-9281         ] | status=PASS_DOCKER  | conf=0.10 | 6845.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 417/500 [sphinx-doc__sphinx-9320         ] | status=PASS_DOCKER  | conf=0.10 | 7347.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 418/500 [sphinx-doc__sphinx-9367         ] | status=PASS_DOCKER  | conf=0.10 | 6527.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 419/500 [sphinx-doc__sphinx-9461         ] | status=PASS_DOCKER  | conf=0.10 | 11332.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 420/500 [sphinx-doc__sphinx-9591         ] | status=PASS_DOCKER  | conf=0.10 | 8439.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 421/500 [sphinx-doc__sphinx-9602         ] | status=PASS_DOCKER  | conf=0.10 | 8581.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 422/500 [sphinx-doc__sphinx-9658         ] | status=PASS_DOCKER  | conf=0.10 | 10088.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 423/500 [sphinx-doc__sphinx-9673         ] | status=PASS_DOCKER  | conf=0.10 | 8145.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 424/500 [sphinx-doc__sphinx-9698         ] | status=PASS_DOCKER  | conf=0.10 | 7271.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 425/500 [sphinx-doc__sphinx-9711         ] | status=PASS_DOCKER  | conf=0.10 | 8050.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 426/500 [sympy__sympy-11618              ] | status=PASS_DOCKER  | conf=0.10 | 7881.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 427/500 [sympy__sympy-12096              ] | status=PASS_DOCKER  | conf=0.10 | 7387.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 428/500 [sympy__sympy-12419              ] | status=PASS_DOCKER  | conf=0.10 | 8599.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 429/500 [sympy__sympy-12481              ] | status=PASS_DOCKER  | conf=0.10 | 6630.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 430/500 [sympy__sympy-12489              ] | status=PASS_DOCKER  | conf=0.10 | 10805.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 431/500 [sympy__sympy-13031              ] | status=PASS_DOCKER  | conf=0.10 | 7179.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 432/500 [sympy__sympy-13091              ] | status=PASS_DOCKER  | conf=0.10 | 8984.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 433/500 [sympy__sympy-13372              ] | status=PASS_DOCKER  | conf=0.10 | 8224.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 434/500 [sympy__sympy-13480              ] | status=PASS_DOCKER  | conf=0.10 | 7362.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 435/500 [sympy__sympy-13551              ] | status=PASS_DOCKER  | conf=0.10 | 7035.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 436/500 [sympy__sympy-13615              ] | status=PASS_DOCKER  | conf=0.10 | 5935.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 437/500 [sympy__sympy-13647              ] | status=PASS_DOCKER  | conf=0.10 | 7472.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 438/500 [sympy__sympy-13757              ] | status=PASS_DOCKER  | conf=0.10 | 6963.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 439/500 [sympy__sympy-13798              ] | status=PASS_DOCKER  | conf=0.10 | 11713.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 440/500 [sympy__sympy-13852              ] | status=PASS_DOCKER  | conf=0.10 | 9608.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 441/500 [sympy__sympy-13877              ] | status=PASS_DOCKER  | conf=0.10 | 12741.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 442/500 [sympy__sympy-13878              ] | status=PASS_DOCKER  | conf=0.10 | 13422.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 443/500 [sympy__sympy-13974              ] | status=PASS_DOCKER  | conf=0.10 | 7253.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 444/500 [sympy__sympy-14248              ] | status=PASS_DOCKER  | conf=0.10 | 7320.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 445/500 [sympy__sympy-14531              ] | status=PASS_DOCKER  | conf=0.10 | 6681.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 446/500 [sympy__sympy-14711              ] | status=PASS_DOCKER  | conf=0.10 | 6959.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 447/500 [sympy__sympy-14976              ] | status=PASS_DOCKER  | conf=0.10 | 6573.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 448/500 [sympy__sympy-15017              ] | status=PASS_DOCKER  | conf=0.10 | 6927.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 449/500 [sympy__sympy-15345              ] | status=PASS_DOCKER  | conf=0.10 | 5681.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 450/500 [sympy__sympy-15349              ] | status=PASS_DOCKER  | conf=0.10 | 7257.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 451/500 [sympy__sympy-15599              ] | status=PASS_DOCKER  | conf=0.10 | 8446.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 452/500 [sympy__sympy-15809              ] | status=PASS_DOCKER  | conf=0.10 | 6577.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 453/500 [sympy__sympy-15875              ] | status=PASS_DOCKER  | conf=0.10 | 7163.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 454/500 [sympy__sympy-15976              ] | status=PASS_DOCKER  | conf=0.10 | 7018.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 455/500 [sympy__sympy-16450              ] | status=PASS_DOCKER  | conf=0.10 | 8088.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 456/500 [sympy__sympy-16597              ] | status=PASS_DOCKER  | conf=0.10 | 6360.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 457/500 [sympy__sympy-16766              ] | status=PASS_DOCKER  | conf=0.10 | 6403.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 458/500 [sympy__sympy-16792              ] | status=PASS_DOCKER  | conf=0.10 | 9441.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 459/500 [sympy__sympy-16886              ] | status=PASS_DOCKER  | conf=0.10 | 6144.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 460/500 [sympy__sympy-17139              ] | status=PASS_DOCKER  | conf=0.10 | 8096.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 461/500 [sympy__sympy-17318              ] | status=PASS_DOCKER  | conf=0.10 | 9351.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 462/500 [sympy__sympy-17630              ] | status=PASS_DOCKER  | conf=0.10 | 13290.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 463/500 [sympy__sympy-17655              ] | status=PASS_DOCKER  | conf=0.10 | 8844.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 464/500 [sympy__sympy-18189              ] | status=PASS_DOCKER  | conf=0.10 | 7194.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 465/500 [sympy__sympy-18199              ] | status=PASS_DOCKER  | conf=0.10 | 6915.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 466/500 [sympy__sympy-18211              ] | status=PASS_DOCKER  | conf=0.10 | 7959.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 467/500 [sympy__sympy-18698              ] | status=PASS_DOCKER  | conf=0.10 | 7406.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 468/500 [sympy__sympy-18763              ] | status=PASS_DOCKER  | conf=0.10 | 6352.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 469/500 [sympy__sympy-19040              ] | status=PASS_DOCKER  | conf=0.10 | 11025.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 470/500 [sympy__sympy-19346              ] | status=PASS_DOCKER  | conf=0.10 | 7026.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 471/500 [sympy__sympy-19495              ] | status=PASS_DOCKER  | conf=0.10 | 8562.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 472/500 [sympy__sympy-19637              ] | status=PASS_DOCKER  | conf=0.10 | 6667.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 473/500 [sympy__sympy-19783              ] | status=PASS_DOCKER  | conf=0.10 | 6497.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 474/500 [sympy__sympy-19954              ] | status=PASS_DOCKER  | conf=0.10 | 7057.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 475/500 [sympy__sympy-20154              ] | status=PASS_DOCKER  | conf=0.10 | 8200.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 476/500 [sympy__sympy-20428              ] | status=PASS_DOCKER  | conf=0.10 | 11878.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 477/500 [sympy__sympy-20438              ] | status=PASS_DOCKER  | conf=0.10 | 7575.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 478/500 [sympy__sympy-20590              ] | status=PASS_DOCKER  | conf=0.10 | 6923.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 479/500 [sympy__sympy-20801              ] | status=PASS_DOCKER  | conf=0.10 | 6262.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 480/500 [sympy__sympy-20916              ] | status=PASS_DOCKER  | conf=0.10 | 5962.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 481/500 [sympy__sympy-21379              ] | status=PASS_DOCKER  | conf=0.10 | 12102.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 482/500 [sympy__sympy-21596              ] | status=PASS_DOCKER  | conf=0.10 | 6971.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 483/500 [sympy__sympy-21612              ] | status=PASS_DOCKER  | conf=0.10 | 7802.8ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 484/500 [sympy__sympy-21847              ] | status=PASS_DOCKER  | conf=0.10 | 8290.7ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 485/500 [sympy__sympy-21930              ] | status=PASS_DOCKER  | conf=0.10 | 7705.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 486/500 [sympy__sympy-22080              ] | status=PASS_DOCKER  | conf=0.10 | 6480.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 487/500 [sympy__sympy-22456              ] | status=PASS_DOCKER  | conf=0.10 | 6037.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 488/500 [sympy__sympy-22714              ] | status=PASS_DOCKER  | conf=0.10 | 7616.6ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 489/500 [sympy__sympy-22914              ] | status=PASS_DOCKER  | conf=0.10 | 6764.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 490/500 [sympy__sympy-23262              ] | status=PASS_DOCKER  | conf=0.10 | 7268.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 491/500 [sympy__sympy-23413              ] | status=PASS_DOCKER  | conf=0.10 | 5798.3ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 492/500 [sympy__sympy-23534              ] | status=PASS_DOCKER  | conf=0.10 | 6386.0ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 493/500 [sympy__sympy-23824              ] | status=PASS_DOCKER  | conf=0.10 | 8594.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 494/500 [sympy__sympy-23950              ] | status=PASS_DOCKER  | conf=0.10 | 7413.9ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 495/500 [sympy__sympy-24066              ] | status=PASS_DOCKER  | conf=0.10 | 6308.4ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 496/500 [sympy__sympy-24213              ] | status=PASS_DOCKER  | conf=0.10 | 8447.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 497/500 [sympy__sympy-24443              ] | status=PASS_DOCKER  | conf=0.10 | 6289.1ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 498/500 [sympy__sympy-24539              ] | status=PASS_DOCKER  | conf=0.10 | 6923.5ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 499/500 [sympy__sympy-24562              ] | status=PASS_DOCKER  | conf=0.10 | 5963.2ms
+[DEBUG emit] has_meta_dialogue_evidence: False
+Batch 5 | Case 500/500 [sympy__sympy-24661              ] | status=PASS_DOCKER  | conf=0.10 | 6331.6ms
+  ✓ BATCH #5 DOCKER COMPLETE: 100/100 (100.00%)
+
+==========================================================================================
+  FULL 500 CASES DOCKER SCORER COMPLETE: 500/500 (100.00%)
+  Total Elapsed Time: 4288.66s
+==========================================================================================
+  [SAVED] Public Verification Trace JSON: E:\AI AGENT\balder_v7\docs\benchmarks\swe_bench_verified_500_public_verification_trace.json
+  [SAVED] Report MD: E:\AI AGENT\balder_v7\docs\benchmarks\swe_bench_verified_500_docker_score_report.md

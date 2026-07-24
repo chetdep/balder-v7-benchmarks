@@ -1,0 +1,144 @@
+{
+    "benchmark": "CGNA Balder v7 Extreme Long Context Stress Test",
+    "timestamp": "2026-07-23 15:13:22",
+    "total_tests": 15,
+    "passed_tests": 12,
+    "pass_rate_percent": 80.0,
+    "results": [
+        {
+            "test_id": "LC_1K_BEGINNING",
+            "target_tokens": 1000,
+            "needle_position": "beginning",
+            "latency_ms": 8556.961,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::math::direct::528e3e94', kind='answer_text', primary_consequenc"
+        },
+        {
+            "test_id": "LC_1K_MIDDLE",
+            "target_tokens": 1000,
+            "needle_position": "middle",
+            "latency_ms": 5549.814,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::math::direct::9ad8e8c0', kind='answer_text', primary_consequenc"
+        },
+        {
+            "test_id": "LC_1K_END",
+            "target_tokens": 1000,
+            "needle_position": "end",
+            "latency_ms": 5671.169,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::math::direct::8c15f747', kind='answer_text', primary_consequenc"
+        },
+        {
+            "test_id": "LC_5K_BEGINNING",
+            "target_tokens": 5000,
+            "needle_position": "beginning",
+            "latency_ms": 1586.62,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::fb1c249605', kind='no_decision', primary_consequences=(), affec"
+        },
+        {
+            "test_id": "LC_5K_MIDDLE",
+            "target_tokens": 5000,
+            "needle_position": "middle",
+            "latency_ms": 1598.076,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::930ef0ef7a', kind='no_decision', primary_consequences=(), affec"
+        },
+        {
+            "test_id": "LC_5K_END",
+            "target_tokens": 5000,
+            "needle_position": "end",
+            "latency_ms": 1591.265,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::6a27d7a8a5', kind='no_decision', primary_consequences=(), affec"
+        },
+        {
+            "test_id": "LC_10K_BEGINNING",
+            "target_tokens": 10000,
+            "needle_position": "beginning",
+            "latency_ms": 1544.203,
+            "peak_ram_mb": 71.91,
+            "status": "FAIL",
+            "result": "BrainDecision(decision_id='decision::96732c715d', kind='no_decision', primary_consequences=(), affec"
+        },
+        {
+            "test_id": "LC_10K_MIDDLE",
+            "target_tokens": 10000,
+            "needle_position": "middle",
+            "latency_ms": 1576.23,
+            "peak_ram_mb": 71.91,
+            "status": "FAIL",
+            "result": "BrainDecision(decision_id='decision::5771e1c32c', kind='no_decision', primary_consequences=(), affec"
+        },
+        {
+            "test_id": "LC_10K_END",
+            "target_tokens": 10000,
+            "needle_position": "end",
+            "latency_ms": 1568.792,
+            "peak_ram_mb": 71.91,
+            "status": "FAIL",
+            "result": "BrainDecision(decision_id='decision::450b29909c', kind='no_decision', primary_consequences=(), affec"
+        },
+        {
+            "test_id": "LC_50K_BEGINNING",
+            "target_tokens": 50000,
+            "needle_position": "beginning",
+            "latency_ms": 5780.796,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::math::direct::15be38d5', kind='answer_text', primary_consequenc"
+        },
+        {
+            "test_id": "LC_50K_MIDDLE",
+            "target_tokens": 50000,
+            "needle_position": "middle",
+            "latency_ms": 5844.864,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::math::direct::9c2560f4', kind='answer_text', primary_consequenc"
+        },
+        {
+            "test_id": "LC_50K_END",
+            "target_tokens": 50000,
+            "needle_position": "end",
+            "latency_ms": 5730.578,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::math::direct::97ce720a', kind='answer_text', primary_consequenc"
+        },
+        {
+            "test_id": "LC_100K_BEGINNING",
+            "target_tokens": 100000,
+            "needle_position": "beginning",
+            "latency_ms": 6662.923,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::math::direct::c8f3a6af', kind='answer_text', primary_consequenc"
+        },
+        {
+            "test_id": "LC_100K_MIDDLE",
+            "target_tokens": 100000,
+            "needle_position": "middle",
+            "latency_ms": 6069.624,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::math::direct::c8f98e56', kind='answer_text', primary_consequenc"
+        },
+        {
+            "test_id": "LC_100K_END",
+            "target_tokens": 100000,
+            "needle_position": "end",
+            "latency_ms": 6138.142,
+            "peak_ram_mb": 71.91,
+            "status": "PASS",
+            "result": "BrainDecision(decision_id='decision::math::direct::2442963d', kind='answer_text', primary_consequenc"
+        }
+    ]
+}

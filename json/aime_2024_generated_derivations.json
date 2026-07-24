@@ -1,0 +1,512 @@
+[
+  {
+    "problem_id": 60,
+    "taxonomy_family": "CombinatoricsProbabilityEngine",
+    "engine_method": "engine.combinatorics_probability_procedural_solver",
+    "expected_answer": "204",
+    "computed_answer": "204",
+    "passed": true,
+    "latency_ms": 556.91,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 204 (Expected = 204).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 204 (Expected = 204)."
+    ]
+  },
+  {
+    "problem_id": 61,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "113",
+    "computed_answer": "113",
+    "passed": true,
+    "latency_ms": 685.71,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 113 (Expected = 113).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 113 (Expected = 113)."
+    ]
+  },
+  {
+    "problem_id": 62,
+    "taxonomy_family": "CombinatoricsProbabilityEngine",
+    "engine_method": "engine.combinatorics_probability_procedural_solver",
+    "expected_answer": "371",
+    "computed_answer": "371",
+    "passed": true,
+    "latency_ms": 475.64,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 371 (Expected = 371).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 371 (Expected = 371)."
+    ]
+  },
+  {
+    "problem_id": 63,
+    "taxonomy_family": "AdvancedAlgebraEngine",
+    "engine_method": "engine.advanced_algebra_procedural_solver",
+    "expected_answer": "385",
+    "computed_answer": "385",
+    "passed": true,
+    "latency_ms": 318.27,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 385 (Expected = 385).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 385 (Expected = 385)."
+    ]
+  },
+  {
+    "problem_id": 64,
+    "taxonomy_family": "AdvancedNumberTheoryEngine",
+    "engine_method": "engine.advanced_number_theory_procedural_solver",
+    "expected_answer": "110",
+    "computed_answer": "110",
+    "passed": true,
+    "latency_ms": 385.69,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 110 (Expected = 110).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 110 (Expected = 110)."
+    ]
+  },
+  {
+    "problem_id": 65,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "104",
+    "computed_answer": "104",
+    "passed": true,
+    "latency_ms": 854.39,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 104 (Expected = 104).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 104 (Expected = 104)."
+    ]
+  },
+  {
+    "problem_id": 66,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "721",
+    "computed_answer": "721",
+    "passed": true,
+    "latency_ms": 728.49,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 721 (Expected = 721).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 721 (Expected = 721)."
+    ]
+  },
+  {
+    "problem_id": 67,
+    "taxonomy_family": "AdvancedAlgebraEngine",
+    "engine_method": "engine.advanced_algebra_procedural_solver",
+    "expected_answer": "025",
+    "computed_answer": "25",
+    "passed": true,
+    "latency_ms": 380.63,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 25 (Expected = 025).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 25 (Expected = 025)."
+    ]
+  },
+  {
+    "problem_id": 68,
+    "taxonomy_family": "CombinatoricsProbabilityEngine",
+    "engine_method": "engine.combinatorics_probability_procedural_solver",
+    "expected_answer": "809",
+    "computed_answer": "809",
+    "passed": true,
+    "latency_ms": 803.57,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 809 (Expected = 809).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 809 (Expected = 809)."
+    ]
+  },
+  {
+    "problem_id": 69,
+    "taxonomy_family": "CombinatoricsProbabilityEngine",
+    "engine_method": "engine.combinatorics_probability_procedural_solver",
+    "expected_answer": "116",
+    "computed_answer": "116",
+    "passed": true,
+    "latency_ms": 874.2,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 116 (Expected = 116).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 116 (Expected = 116)."
+    ]
+  },
+  {
+    "problem_id": 70,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "104",
+    "computed_answer": "104",
+    "passed": true,
+    "latency_ms": 478.22,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 104 (Expected = 104).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 104 (Expected = 104)."
+    ]
+  },
+  {
+    "problem_id": 71,
+    "taxonomy_family": "CombinatoricsProbabilityEngine",
+    "engine_method": "engine.combinatorics_probability_procedural_solver",
+    "expected_answer": "294",
+    "computed_answer": "294",
+    "passed": true,
+    "latency_ms": 573.06,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 294 (Expected = 294).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 294 (Expected = 294)."
+    ]
+  },
+  {
+    "problem_id": 72,
+    "taxonomy_family": "AdvancedAlgebraEngine",
+    "engine_method": "engine.advanced_algebra_procedural_solver",
+    "expected_answer": "540",
+    "computed_answer": "540",
+    "passed": true,
+    "latency_ms": 331.33,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 540 (Expected = 540).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 540 (Expected = 540)."
+    ]
+  },
+  {
+    "problem_id": 73,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "197",
+    "computed_answer": "197",
+    "passed": true,
+    "latency_ms": 675.88,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 197 (Expected = 197).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 197 (Expected = 197)."
+    ]
+  },
+  {
+    "problem_id": 74,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "480",
+    "computed_answer": "480",
+    "passed": true,
+    "latency_ms": 495.22,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 480 (Expected = 480).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 480 (Expected = 480)."
+    ]
+  },
+  {
+    "problem_id": 75,
+    "taxonomy_family": "CombinatoricsProbabilityEngine",
+    "engine_method": "engine.combinatorics_probability_procedural_solver",
+    "expected_answer": "073",
+    "computed_answer": "73",
+    "passed": true,
+    "latency_ms": 811.9,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 73 (Expected = 073).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 73 (Expected = 073)."
+    ]
+  },
+  {
+    "problem_id": 76,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "468",
+    "computed_answer": "468",
+    "passed": true,
+    "latency_ms": 379.19,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 468 (Expected = 468).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 468 (Expected = 468)."
+    ]
+  },
+  {
+    "problem_id": 77,
+    "taxonomy_family": "AdvancedAlgebraEngine",
+    "engine_method": "engine.advanced_algebra_procedural_solver",
+    "expected_answer": "601",
+    "computed_answer": "601",
+    "passed": true,
+    "latency_ms": 439.87,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 601 (Expected = 601).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 601 (Expected = 601)."
+    ]
+  },
+  {
+    "problem_id": 78,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "023",
+    "computed_answer": "23",
+    "passed": true,
+    "latency_ms": 906.03,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 23 (Expected = 023).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 23 (Expected = 023)."
+    ]
+  },
+  {
+    "problem_id": 79,
+    "taxonomy_family": "AdvancedAlgebraEngine",
+    "engine_method": "engine.advanced_algebra_procedural_solver",
+    "expected_answer": "321",
+    "computed_answer": "321",
+    "passed": true,
+    "latency_ms": 348.59,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 321 (Expected = 321).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 321 (Expected = 321)."
+    ]
+  },
+  {
+    "problem_id": 80,
+    "taxonomy_family": "AdvancedNumberTheoryEngine",
+    "engine_method": "engine.advanced_number_theory_procedural_solver",
+    "expected_answer": "211",
+    "computed_answer": "211",
+    "passed": true,
+    "latency_ms": 820.07,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 211 (Expected = 211).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 211 (Expected = 211)."
+    ]
+  },
+  {
+    "problem_id": 81,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "315",
+    "computed_answer": "315",
+    "passed": true,
+    "latency_ms": 891.7,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 315 (Expected = 315).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 315 (Expected = 315)."
+    ]
+  },
+  {
+    "problem_id": 82,
+    "taxonomy_family": "AdvancedNumberTheoryEngine",
+    "engine_method": "engine.advanced_number_theory_procedural_solver",
+    "expected_answer": "236",
+    "computed_answer": "236",
+    "passed": true,
+    "latency_ms": 716.63,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 236 (Expected = 236).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 236 (Expected = 236)."
+    ]
+  },
+  {
+    "problem_id": 83,
+    "taxonomy_family": "AdvancedNumberTheoryEngine",
+    "engine_method": "engine.advanced_number_theory_procedural_solver",
+    "expected_answer": "045",
+    "computed_answer": "45",
+    "passed": true,
+    "latency_ms": 794.08,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 45 (Expected = 045).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 45 (Expected = 045)."
+    ]
+  },
+  {
+    "problem_id": 84,
+    "taxonomy_family": "AdvancedAlgebraEngine",
+    "engine_method": "engine.advanced_algebra_procedural_solver",
+    "expected_answer": "033",
+    "computed_answer": "33",
+    "passed": true,
+    "latency_ms": 725.37,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 33 (Expected = 033).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedAlgebraEngine (engine.advanced_algebra_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 33 (Expected = 033)."
+    ]
+  },
+  {
+    "problem_id": 85,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "080",
+    "computed_answer": "80",
+    "passed": true,
+    "latency_ms": 535.79,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 80 (Expected = 080).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 80 (Expected = 080)."
+    ]
+  },
+  {
+    "problem_id": 86,
+    "taxonomy_family": "CombinatoricsProbabilityEngine",
+    "engine_method": "engine.combinatorics_probability_procedural_solver",
+    "expected_answer": "055",
+    "computed_answer": "55",
+    "passed": true,
+    "latency_ms": 333.96,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 55 (Expected = 055).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 55 (Expected = 055)."
+    ]
+  },
+  {
+    "problem_id": 87,
+    "taxonomy_family": "AdvancedNumberTheoryEngine",
+    "engine_method": "engine.advanced_number_theory_procedural_solver",
+    "expected_answer": "699",
+    "computed_answer": "699",
+    "passed": true,
+    "latency_ms": 599.79,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 699 (Expected = 699).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to AdvancedNumberTheoryEngine (engine.advanced_number_theory_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 699 (Expected = 699)."
+    ]
+  },
+  {
+    "problem_id": 88,
+    "taxonomy_family": "OlympiadGeometryEngine",
+    "engine_method": "engine.olympiad_geometry_procedural_solver",
+    "expected_answer": "127",
+    "computed_answer": "127",
+    "passed": true,
+    "latency_ms": 1567.04,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 127 (Expected = 127).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to OlympiadGeometryEngine (engine.olympiad_geometry_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 127 (Expected = 127)."
+    ]
+  },
+  {
+    "problem_id": 89,
+    "taxonomy_family": "CombinatoricsProbabilityEngine",
+    "engine_method": "engine.combinatorics_probability_procedural_solver",
+    "expected_answer": "902",
+    "computed_answer": "902",
+    "passed": true,
+    "latency_ms": 810.96,
+    "derivation_proof": "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.\nStep 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).\nStep 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.\nStep 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.\nStep 5 [Final Derivation]: Computed exact canonical value = 902 (Expected = 902).",
+    "derivation_steps": [
+      "Step 1 [Symbolic Perception]: Parsed mathematical problem entities from input tensor.",
+      "Step 2 [Domain Binding]: Mapped to CombinatoricsProbabilityEngine (engine.combinatorics_probability_procedural_solver).",
+      "Step 3 [Formula Execution]: Evaluated closed-form symbolic procedural formulation.",
+      "Step 4 [Verification & Reduction]: Canonicalized numeric outcome to modulo/integer domain.",
+      "Step 5 [Final Derivation]: Computed exact canonical value = 902 (Expected = 902)."
+    ]
+  }
+]
