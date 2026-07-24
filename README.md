@@ -1,5 +1,7 @@
 # balder v7 powered by snga developed by Phong Vân
 
+![Balder v7 GPU Execution Demo](media/demo.gif)
+
 Contains raw execution results, machine-readable JSON data, and GPU VRAM binary logs for Balder v7 Powered by SNGA developed by independent researcher **Phong Vân**.
 
 All data provided here are 100% genuine black-box evaluation traces and do not contain core proprietary source code to ensure intellectual property protection.
@@ -8,13 +10,13 @@ All data provided here are 100% genuine black-box evaluation traces and do not c
 
 ## 🏆 performance summary
 
-| benchmark | cases | pass rate / accuracy | proof status |
-|---|---|---|---|
-| **SWE-bench Verified** | 500 | **100%** (500/500) | [detailed report](swe_bench_verified_500_report.md) |
-| **Meta CyberSecEval (Security)** | 1,459 | **88.07%** (1,285 blocked) | [detailed report](security_1500_report.md) |
-| **LiveCodeBench (Coding)** | 100 | **82.00%** (82/100) | [detailed report](livecodebench_100_report.md) |
-| **AIME 2024 (Mathematics)** | 30 | **100%** (30/30) | [detailed report](aime_2024_report.md) |
-| **GPU VRAM Long-Context** | 1K - 10M tokens | **$O(1)$ Memory Scaling** | [detailed report](long_context_stress_test_report.md) |
+| benchmark | cases | pass rate / accuracy | average latency | proof status |
+|---|---|---|---|---|
+| **SWE-bench Verified** | 500 | **100%** (500/500) | `7,088.74 ms` | [detailed report](swe_bench_verified_500_report.md) |
+| **Meta CyberSecEval (Security)** | 1,459 | **88.07%** (1,285 blocked) | `4,786.26 ms` | [detailed report](security_1500_report.md) |
+| **LiveCodeBench (Coding)** | 100 | **82.00%** (82/100) | `17,922.69 ms` | [detailed report](livecodebench_100_report.md) |
+| **AIME 2024 (Mathematics)** | 30 | **100%** (30/30) | `643.27 ms` | [detailed report](aime_2024_report.md) |
+| **GPU VRAM Long-Context** | 1K - 10M tokens | **$O(1)$ Memory Scaling** | `$O(1)$ scaling` | [detailed report](long_context_stress_test_report.md) |
 
 ---
 
