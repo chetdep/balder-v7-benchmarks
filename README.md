@@ -12,7 +12,7 @@ All data provided here are 100% genuine black-box evaluation traces and do not c
 |---|---|---|---|
 | **SWE-bench Verified** | 500 | **100%** (500/500) | [detailed report](swe_bench_verified_500_report.md) |
 | **Meta CyberSecEval (Security)** | 1,459 | **88.07%** (1,285 blocked) | [detailed report](security_1500_report.md) |
-| **LiveCodeBench (Coding)** | 510 | **82.35%** (420/510) | [detailed report](livecodebench_100_report.md) |
+| **LiveCodeBench (Coding)** | 100 | **82.00%** (82/100) | [detailed report](livecodebench_100_report.md) |
 | **AIME 2024 (Mathematics)** | 30 | **100%** (30/30) | [detailed report](aime_2024_report.md) |
 | **GPU VRAM Long-Context** | 1K - 10M tokens | **$O(1)$ Memory Scaling** | [detailed report](long_context_stress_test_report.md) |
 
