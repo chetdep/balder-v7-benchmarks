@@ -57,4 +57,4 @@ tất cả các dữ liệu tại đây là bằng chứng hộp đen (black-box
 
 ## 📄 bản quyền và sở hữu trí tuệ (intellectual property notice)
 
-tất cả các báo cáo và kết quả tại đây được công bố công khai phục vụ kiểm chứng khoa học. các thuật toán cốt lõi, cơ chế tự tái tổ hợp phân tử (molecular recombination), và mã nguồn thực thi của hệ thống Balder v7 được bảo hộ độc quyền và không nằm trong phạm vi công bố của kho lưu trữ này.
+tất cả các báo cáo và kết quả tại đây được công bố công khai phục vụ kiểm chứng khoa học. các thuật toán cốt lõi và mã nguồn thực thi của hệ thống Balder v7 được bảo hộ độc quyền và không nằm trong phạm vi công bố của kho lưu trữ này.
