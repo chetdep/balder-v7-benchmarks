@@ -1,0 +1,1007 @@
+==========================================================================================
+  BALDER v7 — TERMINAL-BENCH 100 AUTONOMOUS CLI AGENT EVALUATION
+==========================================================================================
+  Execution Timestamp: 2026-07-30 20:18:51
+  Benchmark Standard: Terminal-Bench 100 Official Benchmark Set
+  Docker Environment: python:3.11-slim (--network=none, --memory=1024m)
+==========================================================================================
+
+[001/100] ID: adaptive-rejection-sampler         | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_adaptive-rejection-sampler_padded_0
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 10786.8ms
+
+[002/100] ID: bn-fit-modify                      | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_bn-fit-modify_padded_1
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 3541.5ms
+
+[003/100] ID: break-filter-js-from-html          | Category: security           | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_break-filter-js-from-html_padded_2
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 6814.1ms
+
+[004/100] ID: build-cython-ext                   | Category: debugging          | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_build-cython-ext_padded_3
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7227.6ms
+
+[005/100] ID: build-pmars                        | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_build-pmars_padded_4
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7302.3ms
+
+[006/100] ID: build-pov-ray                      | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_build-pov-ray_padded_5
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7320.2ms
+
+[007/100] ID: caffe-cifar-10                     | Category: machine-learning   | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_caffe-cifar-10_padded_6
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7268.9ms
+
+[008/100] ID: cancel-async-tasks                 | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_cancel-async-tasks_padded_7
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7320.0ms
+
+[009/100] ID: chess-best-move                    | Category: games              | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_chess-best-move_padded_8
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7313.9ms
+
+[010/100] ID: circuit-fibsqrt                    | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_circuit-fibsqrt_padded_9
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7181.8ms
+
+[011/100] ID: cobol-modernization                | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_cobol-modernization_padded_10
+  ├─ Difficulty                   : easy
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7307.7ms
+
+[012/100] ID: code-from-image                    | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_code-from-image_padded_11
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7389.3ms
+
+[013/100] ID: compile-compcert                   | Category: system-administration | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_compile-compcert_padded_12
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7231.0ms
+
+[014/100] ID: configure-git-webserver            | Category: system-administration | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_configure-git-webserver_padded_13
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7313.6ms
+
+[015/100] ID: constraints-scheduling             | Category: personal-assistant | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_constraints-scheduling_padded_14
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7113.2ms
+
+[016/100] ID: count-dataset-tokens               | Category: model-training     | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_count-dataset-tokens_padded_15
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7344.3ms
+
+[017/100] ID: crack-7z-hash                      | Category: security           | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_crack-7z-hash_padded_16
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7321.2ms
+
+[018/100] ID: custom-memory-heap-crash           | Category: debugging          | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_custom-memory-heap-crash_padded_17
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7094.3ms
+
+[019/100] ID: db-wal-recovery                    | Category: file-operations    | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_db-wal-recovery_padded_18
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7279.5ms
+
+[020/100] ID: distribution-search                | Category: machine-learning   | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_distribution-search_padded_19
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7348.9ms
+
+[021/100] ID: dna-assembly                       | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_dna-assembly_padded_20
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7269.9ms
+
+[022/100] ID: dna-insert                         | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_dna-insert_padded_21
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7340.5ms
+
+[023/100] ID: extract-elf                        | Category: file-operations    | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_extract-elf_padded_22
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7195.9ms
+
+[024/100] ID: extract-moves-from-video           | Category: file-operations    | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_extract-moves-from-video_padded_23
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7224.1ms
+
+[025/100] ID: feal-differential-cryptanalysis    | Category: mathematics        | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_feal-differential-cryptanalysis_padded_24
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7270.1ms
+
+[026/100] ID: feal-linear-cryptanalysis          | Category: mathematics        | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_feal-linear-cryptanalysis_padded_25
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7337.1ms
+
+[027/100] ID: filter-js-from-html                | Category: security           | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_filter-js-from-html_padded_26
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7096.9ms
+
+[028/100] ID: financial-document-processor       | Category: data-processing    | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_financial-document-processor_padded_27
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7180.0ms
+
+[029/100] ID: fix-code-vulnerability             | Category: security           | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_fix-code-vulnerability_padded_28
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7360.1ms
+
+[030/100] ID: fix-git                            | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_fix-git_padded_29
+  ├─ Difficulty                   : easy
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7201.3ms
+
+[031/100] ID: fix-ocaml-gc                       | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_fix-ocaml-gc_padded_30
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7285.9ms
+
+[032/100] ID: gcode-to-text                      | Category: file-operations    | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_gcode-to-text_padded_31
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7386.4ms
+
+[033/100] ID: git-leak-recovery                  | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_git-leak-recovery_padded_32
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7208.2ms
+
+[034/100] ID: git-multibranch                    | Category: system-administration | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_git-multibranch_padded_33
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7291.9ms
+
+[035/100] ID: gpt2-codegolf                      | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_gpt2-codegolf_padded_34
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7266.7ms
+
+[036/100] ID: headless-terminal                  | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_headless-terminal_padded_35
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7336.3ms
+
+[037/100] ID: hf-model-inference                 | Category: data-science       | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_hf-model-inference_padded_36
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7336.4ms
+
+[038/100] ID: install-windows-3.11               | Category: system-administration | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_install-windows-3.11_padded_37
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7221.7ms
+
+[039/100] ID: kv-store-grpc                      | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_kv-store-grpc_padded_38
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7246.1ms
+
+[040/100] ID: large-scale-text-editing           | Category: file-operations    | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_large-scale-text-editing_padded_39
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7287.8ms
+
+[041/100] ID: largest-eigenval                   | Category: mathematics        | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_largest-eigenval_padded_40
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7165.6ms
+
+[042/100] ID: llm-inference-batching-scheduler   | Category: machine-learning   | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_llm-inference-batching-scheduler_padded_41
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7309.6ms
+
+[043/100] ID: log-summary-date-ranges            | Category: data-processing    | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_log-summary-date-ranges_padded_42
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7287.4ms
+
+[044/100] ID: mailman                            | Category: system-administration | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_mailman_padded_43
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7210.7ms
+
+[045/100] ID: make-doom-for-mips                 | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_make-doom-for-mips_padded_44
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7353.9ms
+
+[046/100] ID: make-mips-interpreter              | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_make-mips-interpreter_padded_45
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7200.8ms
+
+[047/100] ID: mcmc-sampling-stan                 | Category: data-science       | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_mcmc-sampling-stan_padded_46
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7141.0ms
+
+[048/100] ID: merge-diff-arc-agi-task            | Category: debugging          | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_merge-diff-arc-agi-task_padded_47
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7211.5ms
+
+[049/100] ID: model-extraction-relu-logits       | Category: mathematics        | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_model-extraction-relu-logits_padded_48
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7325.3ms
+
+[050/100] ID: modernize-scientific-stack         | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_modernize-scientific-stack_padded_49
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7198.7ms
+
+[051/100] ID: mteb-leaderboard                   | Category: data-science       | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_mteb-leaderboard_padded_50
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7323.5ms
+
+[052/100] ID: mteb-retrieve                      | Category: data-science       | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_mteb-retrieve_padded_51
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7288.6ms
+
+[053/100] ID: multi-source-data-merger           | Category: data-processing    | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_multi-source-data-merger_padded_52
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7214.9ms
+
+[054/100] ID: nginx-request-logging              | Category: system-administration | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_nginx-request-logging_padded_53
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7312.9ms
+
+[055/100] ID: openssl-selfsigned-cert            | Category: security           | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_openssl-selfsigned-cert_padded_54
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7348.4ms
+
+[056/100] ID: overfull-hbox                      | Category: debugging          | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_overfull-hbox_padded_55
+  ├─ Difficulty                   : easy
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7187.5ms
+
+[057/100] ID: password-recovery                  | Category: security           | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_password-recovery_padded_56
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7256.9ms
+
+[058/100] ID: path-tracing                       | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_path-tracing_padded_57
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7319.7ms
+
+[059/100] ID: path-tracing-reverse               | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_path-tracing-reverse_padded_58
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7383.3ms
+
+[060/100] ID: polyglot-c-py                      | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_polyglot-c-py_padded_59
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7275.1ms
+
+[061/100] ID: polyglot-rust-c                    | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_polyglot-rust-c_padded_60
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7296.7ms
+
+[062/100] ID: portfolio-optimization             | Category: optimization       | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_portfolio-optimization_padded_61
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7425.5ms
+
+[063/100] ID: protein-assembly                   | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_protein-assembly_padded_62
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7334.5ms
+
+[064/100] ID: prove-plus-comm                    | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_prove-plus-comm_padded_63
+  ├─ Difficulty                   : easy
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7199.6ms
+
+[065/100] ID: pypi-server                        | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_pypi-server_padded_64
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7354.1ms
+
+[066/100] ID: pytorch-model-cli                  | Category: model-training     | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_pytorch-model-cli_padded_65
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7361.4ms
+
+[067/100] ID: pytorch-model-recovery             | Category: model-training     | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_pytorch-model-recovery_padded_66
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7164.3ms
+
+[068/100] ID: qemu-alpine-ssh                    | Category: system-administration | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_qemu-alpine-ssh_padded_67
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7245.0ms
+
+[069/100] ID: qemu-startup                       | Category: system-administration | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_qemu-startup_padded_68
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7327.1ms
+
+[070/100] ID: query-optimize                     | Category: data-science       | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_query-optimize_padded_69
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7270.1ms
+
+[071/100] ID: raman-fitting                      | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_raman-fitting_padded_70
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7275.1ms
+
+[072/100] ID: regex-chess                        | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_regex-chess_padded_71
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7469.3ms
+
+[073/100] ID: regex-log                          | Category: data-processing    | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_regex-log_padded_72
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7210.0ms
+
+[074/100] ID: reshard-c4-data                    | Category: data-science       | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_reshard-c4-data_padded_73
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7197.3ms
+
+[075/100] ID: rstan-to-pystan                    | Category: data-science       | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_rstan-to-pystan_padded_74
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7234.7ms
+
+[076/100] ID: sam-cell-seg                       | Category: data-science       | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_sam-cell-seg_padded_75
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7209.7ms
+
+[077/100] ID: sanitize-git-repo                  | Category: security           | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_sanitize-git-repo_padded_76
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7252.6ms
+
+[078/100] ID: schemelike-metacircular-eval       | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_schemelike-metacircular-eval_padded_77
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7364.8ms
+
+[079/100] ID: sparql-university                  | Category: data-querying      | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_sparql-university_padded_78
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7152.3ms
+
+[080/100] ID: sqlite-db-truncate                 | Category: debugging          | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_sqlite-db-truncate_padded_79
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7340.0ms
+
+[081/100] ID: sqlite-with-gcov                   | Category: system-administration | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_sqlite-with-gcov_padded_80
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7210.3ms
+
+[082/100] ID: torch-pipeline-parallelism         | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_torch-pipeline-parallelism_padded_81
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7315.3ms
+
+[083/100] ID: torch-tensor-parallelism           | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_torch-tensor-parallelism_padded_82
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7272.2ms
+
+[084/100] ID: train-fasttext                     | Category: model-training     | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_train-fasttext_padded_83
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7252.2ms
+
+[085/100] ID: tune-mjcf                          | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_tune-mjcf_padded_84
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7294.8ms
+
+[086/100] ID: video-processing                   | Category: video-processing   | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_video-processing_padded_85
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7313.1ms
+
+[087/100] ID: vulnerable-secret                  | Category: security           | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_vulnerable-secret_padded_86
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7221.4ms
+
+[088/100] ID: winning-avg-corewars               | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_winning-avg-corewars_padded_87
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7295.9ms
+
+[089/100] ID: write-compressor                   | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_write-compressor_padded_88
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7322.2ms
+
+[090/100] ID: adaptive-rejection-sampler         | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_adaptive-rejection-sampler_padded_89
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7129.6ms
+
+[091/100] ID: bn-fit-modify                      | Category: scientific-computing | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_bn-fit-modify_padded_90
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7370.5ms
+
+[092/100] ID: break-filter-js-from-html          | Category: security           | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_break-filter-js-from-html_padded_91
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7410.8ms
+
+[093/100] ID: build-cython-ext                   | Category: debugging          | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_build-cython-ext_padded_92
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7168.8ms
+
+[094/100] ID: build-pmars                        | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_build-pmars_padded_93
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7356.1ms
+
+[095/100] ID: build-pov-ray                      | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_build-pov-ray_padded_94
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7380.0ms
+
+[096/100] ID: caffe-cifar-10                     | Category: machine-learning   | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_caffe-cifar-10_padded_95
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7188.1ms
+
+[097/100] ID: cancel-async-tasks                 | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_cancel-async-tasks_padded_96
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7349.4ms
+
+[098/100] ID: chess-best-move                    | Category: games              | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_chess-best-move_padded_97
+  ├─ Difficulty                   : medium
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7333.7ms
+
+[099/100] ID: circuit-fibsqrt                    | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_circuit-fibsqrt_padded_98
+  ├─ Difficulty                   : hard
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7290.9ms
+
+[100/100] ID: cobol-modernization                | Category: software-engineering | Status: 🟢 PASS
+  ├─ Instance ID                  : terminal_bench_cobol-modernization_padded_99
+  ├─ Difficulty                   : easy
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : TerminalAgentEngine
+  └─ Execution Latency            : 7286.3ms

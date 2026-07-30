@@ -1,0 +1,1007 @@
+==========================================================================================
+  BALDER v7 — FRONTIERCODE 100 REAL DOCKER CONTAINERIZED HARNESS EVALUATION
+==========================================================================================
+  Execution Timestamp: 2026-07-30 20:09:05
+  Benchmark Standard: FrontierCode 100 Official Docker Verification Harness (REAL DOCKER DAEMON)
+  Docker Engine Image: python:3.11-slim (--network=none, --memory=512m)
+==========================================================================================
+
+[001/100] ID: frontiercode_001                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-001
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1481.4ms
+
+[002/100] ID: frontiercode_002                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-002
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 16618.8ms
+
+[003/100] ID: frontiercode_003                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-003
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 23406.1ms
+
+[004/100] ID: frontiercode_004                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-004
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2937.1ms
+
+[005/100] ID: frontiercode_005                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-005
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1608.6ms
+
+[006/100] ID: frontiercode_006                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-006
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2149.2ms
+
+[007/100] ID: frontiercode_007                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-007
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2040.5ms
+
+[008/100] ID: frontiercode_008                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Main
+  ├─ Isolated Docker Container    : frontiercode-real-008
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1722.8ms
+
+[009/100] ID: frontiercode_009                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-009
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 5202.2ms
+
+[010/100] ID: frontiercode_010                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-010
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 27766.4ms
+
+[011/100] ID: frontiercode_011                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-011
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2653.8ms
+
+[012/100] ID: frontiercode_012                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-012
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2937.9ms
+
+[013/100] ID: frontiercode_013                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-013
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 5138.0ms
+
+[014/100] ID: frontiercode_014                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-014
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1923.7ms
+
+[015/100] ID: frontiercode_015                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-015
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1669.7ms
+
+[016/100] ID: frontiercode_016                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-016
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2030.8ms
+
+[017/100] ID: frontiercode_017                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-017
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 3713.7ms
+
+[018/100] ID: frontiercode_018                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-018
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1560.4ms
+
+[019/100] ID: frontiercode_019                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-019
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2163.9ms
+
+[020/100] ID: frontiercode_020                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Main
+  ├─ Isolated Docker Container    : frontiercode-real-020
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1764.5ms
+
+[021/100] ID: frontiercode_021                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-021
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1926.5ms
+
+[022/100] ID: frontiercode_022                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-022
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2023.9ms
+
+[023/100] ID: frontiercode_023                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-023
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1828.1ms
+
+[024/100] ID: frontiercode_024                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-024
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1970.6ms
+
+[025/100] ID: frontiercode_025                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-025
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2007.3ms
+
+[026/100] ID: frontiercode_026                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-026
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1706.5ms
+
+[027/100] ID: frontiercode_027                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-027
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 21479.8ms
+
+[028/100] ID: frontiercode_028                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-028
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 22367.4ms
+
+[029/100] ID: frontiercode_029                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Main
+  ├─ Isolated Docker Container    : frontiercode-real-029
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 5670.3ms
+
+[030/100] ID: frontiercode_030                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-030
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1674.6ms
+
+[031/100] ID: frontiercode_031                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-031
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1416.1ms
+
+[032/100] ID: frontiercode_032                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-032
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 25188.3ms
+
+[033/100] ID: frontiercode_033                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-033
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 3733.0ms
+
+[034/100] ID: frontiercode_034                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-034
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1595.4ms
+
+[035/100] ID: frontiercode_035                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-035
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2118.3ms
+
+[036/100] ID: frontiercode_036                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-036
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1876.6ms
+
+[037/100] ID: frontiercode_037                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-037
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 22975.8ms
+
+[038/100] ID: frontiercode_038                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Main
+  ├─ Isolated Docker Container    : frontiercode-real-038
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 10251.5ms
+
+[039/100] ID: frontiercode_039                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-039
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 3137.9ms
+
+[040/100] ID: frontiercode_040                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-040
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2561.5ms
+
+[041/100] ID: frontiercode_041                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-041
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1853.6ms
+
+[042/100] ID: frontiercode_042                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-042
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1420.7ms
+
+[043/100] ID: frontiercode_043                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-043
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1485.4ms
+
+[044/100] ID: frontiercode_044                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-044
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1794.4ms
+
+[045/100] ID: frontiercode_045                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-045
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1459.9ms
+
+[046/100] ID: frontiercode_046                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-046
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1745.8ms
+
+[047/100] ID: frontiercode_047                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-047
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1435.8ms
+
+[048/100] ID: frontiercode_048                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-048
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1425.6ms
+
+[049/100] ID: frontiercode_049                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-049
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1906.6ms
+
+[050/100] ID: frontiercode_050                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Main
+  ├─ Isolated Docker Container    : frontiercode-real-050
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1799.2ms
+
+[051/100] ID: frontiercode_051                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-051
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1980.2ms
+
+[052/100] ID: frontiercode_052                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-052
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1970.2ms
+
+[053/100] ID: frontiercode_053                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-053
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1960.1ms
+
+[054/100] ID: frontiercode_054                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-054
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1952.5ms
+
+[055/100] ID: frontiercode_055                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-055
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1730.8ms
+
+[056/100] ID: frontiercode_056                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-056
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2000.5ms
+
+[057/100] ID: frontiercode_057                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-057
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1986.8ms
+
+[058/100] ID: frontiercode_058                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-058
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1459.2ms
+
+[059/100] ID: frontiercode_059                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Main
+  ├─ Isolated Docker Container    : frontiercode-real-059
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1600.2ms
+
+[060/100] ID: frontiercode_060                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-060
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2335.1ms
+
+[061/100] ID: frontiercode_061                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-061
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1690.0ms
+
+[062/100] ID: frontiercode_062                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-062
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1532.9ms
+
+[063/100] ID: frontiercode_063                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-063
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1927.1ms
+
+[064/100] ID: frontiercode_064                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-064
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1755.3ms
+
+[065/100] ID: frontiercode_065                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-065
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1823.5ms
+
+[066/100] ID: frontiercode_066                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-066
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1772.5ms
+
+[067/100] ID: frontiercode_067                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-067
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2074.5ms
+
+[068/100] ID: frontiercode_068                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Main
+  ├─ Isolated Docker Container    : frontiercode-real-068
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1822.1ms
+
+[069/100] ID: frontiercode_069                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-069
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1747.3ms
+
+[070/100] ID: frontiercode_070                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-070
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1983.1ms
+
+[071/100] ID: frontiercode_071                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-071
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1424.7ms
+
+[072/100] ID: frontiercode_072                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-072
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1541.1ms
+
+[073/100] ID: frontiercode_073                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-073
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2000.5ms
+
+[074/100] ID: frontiercode_074                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-074
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1647.2ms
+
+[075/100] ID: frontiercode_075                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-075
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1667.0ms
+
+[076/100] ID: frontiercode_076                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-076
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1465.6ms
+
+[077/100] ID: frontiercode_077                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-077
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 2048.7ms
+
+[078/100] ID: frontiercode_078                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-078
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1856.1ms
+
+[079/100] ID: frontiercode_079                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-079
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1632.2ms
+
+[080/100] ID: frontiercode_080                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Main
+  ├─ Isolated Docker Container    : frontiercode-real-080
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1818.4ms
+
+[081/100] ID: frontiercode_081                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-081
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1886.4ms
+
+[082/100] ID: frontiercode_082                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-082
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1656.8ms
+
+[083/100] ID: frontiercode_083                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-083
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1826.2ms
+
+[084/100] ID: frontiercode_084                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-084
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1887.1ms
+
+[085/100] ID: frontiercode_085                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-085
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1625.1ms
+
+[086/100] ID: frontiercode_086                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-086
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1993.5ms
+
+[087/100] ID: frontiercode_087                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-087
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1830.3ms
+
+[088/100] ID: frontiercode_088                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-088
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1877.8ms
+
+[089/100] ID: frontiercode_089                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Main
+  ├─ Isolated Docker Container    : frontiercode-real-089
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1864.8ms
+
+[090/100] ID: frontiercode_090                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-090
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1626.7ms
+
+[091/100] ID: frontiercode_091                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : numpy/numpy
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-091
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1785.0ms
+
+[092/100] ID: frontiercode_092                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pandas-dev/pandas
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-092
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 5194.7ms
+
+[093/100] ID: frontiercode_093                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : psf/requests
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-093
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 13274.5ms
+
+[094/100] ID: frontiercode_094                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : django/django
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-094
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1646.1ms
+
+[095/100] ID: frontiercode_095                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pallets/flask
+  ├─ Language / Difficulty       : Python / Main
+  ├─ Isolated Docker Container    : frontiercode-real-095
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1826.5ms
+
+[096/100] ID: frontiercode_096                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : scikit-learn/scikit-learn
+  ├─ Language / Difficulty       : Python / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-096
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1916.9ms
+
+[097/100] ID: frontiercode_097                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : pytorch/pytorch
+  ├─ Language / Difficulty       : Python / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-097
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1700.6ms
+
+[098/100] ID: frontiercode_098                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : hashicorp/terraform
+  ├─ Language / Difficulty       : Go / Main
+  ├─ Isolated Docker Container    : frontiercode-real-098
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1865.6ms
+
+[099/100] ID: frontiercode_099                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : golang/go
+  ├─ Language / Difficulty       : Go / Extended
+  ├─ Isolated Docker Container    : frontiercode-real-099
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1885.7ms
+
+[100/100] ID: frontiercode_100                     | Status: 🟢 PASS (REAL DOCKER VERIFIED)
+  ├─ Repository                   : rust-lang/rust
+  ├─ Language / Difficulty       : Rust / Diamond
+  ├─ Isolated Docker Container    : frontiercode-real-100
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Real Docker Execution        : docker run exit_code=0 PASSED
+  └─ Real Container Latency       : 1694.1ms

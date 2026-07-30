@@ -1,0 +1,1007 @@
+==========================================================================================
+  BALDER v7 — FRONTIERCODE 100 FRONTIER CODE GENERATION EVALUATION
+==========================================================================================
+  Execution Timestamp: 2026-07-30 19:29:48
+  Benchmark Standard: FrontierCode 100 Official Benchmark Set
+  Docker Environment: swebench/swe-bench-runner:latest (--network=none, --memory=2048m)
+==========================================================================================
+
+[001/100] ID: frontiercode_001                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 10964.7ms
+
+[002/100] ID: frontiercode_002                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 3715.2ms
+
+[003/100] ID: frontiercode_003                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 5443.3ms
+
+[004/100] ID: frontiercode_004                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7380.9ms
+
+[005/100] ID: frontiercode_005                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7441.2ms
+
+[006/100] ID: frontiercode_006                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7322.7ms
+
+[007/100] ID: frontiercode_007                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7308.3ms
+
+[008/100] ID: frontiercode_008                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7364.7ms
+
+[009/100] ID: frontiercode_009                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7319.8ms
+
+[010/100] ID: frontiercode_010                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7182.7ms
+
+[011/100] ID: frontiercode_011                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7288.7ms
+
+[012/100] ID: frontiercode_012                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7382.6ms
+
+[013/100] ID: frontiercode_013                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7324.9ms
+
+[014/100] ID: frontiercode_014                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7366.7ms
+
+[015/100] ID: frontiercode_015                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7193.4ms
+
+[016/100] ID: frontiercode_016                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7502.4ms
+
+[017/100] ID: frontiercode_017                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7460.6ms
+
+[018/100] ID: frontiercode_018                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7207.1ms
+
+[019/100] ID: frontiercode_019                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7456.6ms
+
+[020/100] ID: frontiercode_020                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7487.0ms
+
+[021/100] ID: frontiercode_021                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7392.3ms
+
+[022/100] ID: frontiercode_022                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7478.9ms
+
+[023/100] ID: frontiercode_023                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7382.7ms
+
+[024/100] ID: frontiercode_024                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7255.1ms
+
+[025/100] ID: frontiercode_025                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7430.4ms
+
+[026/100] ID: frontiercode_026                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7558.8ms
+
+[027/100] ID: frontiercode_027                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7247.1ms
+
+[028/100] ID: frontiercode_028                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7365.7ms
+
+[029/100] ID: frontiercode_029                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7516.9ms
+
+[030/100] ID: frontiercode_030                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7293.3ms
+
+[031/100] ID: frontiercode_031                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7418.3ms
+
+[032/100] ID: frontiercode_032                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7311.3ms
+
+[033/100] ID: frontiercode_033                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7258.2ms
+
+[034/100] ID: frontiercode_034                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7434.7ms
+
+[035/100] ID: frontiercode_035                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7295.2ms
+
+[036/100] ID: frontiercode_036                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7292.8ms
+
+[037/100] ID: frontiercode_037                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7336.4ms
+
+[038/100] ID: frontiercode_038                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7267.1ms
+
+[039/100] ID: frontiercode_039                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7393.6ms
+
+[040/100] ID: frontiercode_040                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7373.5ms
+
+[041/100] ID: frontiercode_041                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7186.2ms
+
+[042/100] ID: frontiercode_042                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7411.9ms
+
+[043/100] ID: frontiercode_043                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7419.1ms
+
+[044/100] ID: frontiercode_044                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7226.1ms
+
+[045/100] ID: frontiercode_045                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7429.5ms
+
+[046/100] ID: frontiercode_046                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7399.8ms
+
+[047/100] ID: frontiercode_047                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7243.7ms
+
+[048/100] ID: frontiercode_048                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7330.0ms
+
+[049/100] ID: frontiercode_049                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7435.5ms
+
+[050/100] ID: frontiercode_050                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7192.5ms
+
+[051/100] ID: frontiercode_051                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7297.3ms
+
+[052/100] ID: frontiercode_052                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7452.3ms
+
+[053/100] ID: frontiercode_053                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7305.1ms
+
+[054/100] ID: frontiercode_054                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7268.2ms
+
+[055/100] ID: frontiercode_055                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7303.7ms
+
+[056/100] ID: frontiercode_056                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7155.7ms
+
+[057/100] ID: frontiercode_057                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7355.5ms
+
+[058/100] ID: frontiercode_058                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7261.7ms
+
+[059/100] ID: frontiercode_059                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7396.0ms
+
+[060/100] ID: frontiercode_060                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7368.9ms
+
+[061/100] ID: frontiercode_061                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7249.6ms
+
+[062/100] ID: frontiercode_062                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7441.1ms
+
+[063/100] ID: frontiercode_063                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7420.7ms
+
+[064/100] ID: frontiercode_064                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7209.1ms
+
+[065/100] ID: frontiercode_065                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7428.3ms
+
+[066/100] ID: frontiercode_066                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7423.9ms
+
+[067/100] ID: frontiercode_067                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7219.1ms
+
+[068/100] ID: frontiercode_068                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7431.5ms
+
+[069/100] ID: frontiercode_069                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7260.3ms
+
+[070/100] ID: frontiercode_070                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7183.9ms
+
+[071/100] ID: frontiercode_071                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7272.8ms
+
+[072/100] ID: frontiercode_072                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7371.2ms
+
+[073/100] ID: frontiercode_073                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7155.9ms
+
+[074/100] ID: frontiercode_074                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7274.6ms
+
+[075/100] ID: frontiercode_075                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7412.0ms
+
+[076/100] ID: frontiercode_076                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7242.7ms
+
+[077/100] ID: frontiercode_077                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7271.9ms
+
+[078/100] ID: frontiercode_078                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7292.3ms
+
+[079/100] ID: frontiercode_079                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7294.7ms
+
+[080/100] ID: frontiercode_080                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7462.6ms
+
+[081/100] ID: frontiercode_081                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7236.2ms
+
+[082/100] ID: frontiercode_082                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7423.0ms
+
+[083/100] ID: frontiercode_083                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7368.0ms
+
+[084/100] ID: frontiercode_084                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7233.1ms
+
+[085/100] ID: frontiercode_085                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7418.6ms
+
+[086/100] ID: frontiercode_086                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7469.3ms
+
+[087/100] ID: frontiercode_087                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7343.4ms
+
+[088/100] ID: frontiercode_088                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7422.7ms
+
+[089/100] ID: frontiercode_089                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7421.1ms
+
+[090/100] ID: frontiercode_090                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7229.9ms
+
+[091/100] ID: frontiercode_091                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : numpy/numpy
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7441.6ms
+
+[092/100] ID: frontiercode_092                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pandas-dev/pandas
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7373.0ms
+
+[093/100] ID: frontiercode_093                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : psf/requests
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7241.6ms
+
+[094/100] ID: frontiercode_094                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : django/django
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7444.3ms
+
+[095/100] ID: frontiercode_095                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : pallets/flask
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7436.8ms
+
+[096/100] ID: frontiercode_096                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : scikit-learn/scikit-learn
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12020201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000010 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7334.5ms
+
+[097/100] ID: frontiercode_097                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : pytorch/pytorch
+  ├─ Language                     : Python
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12000101
+  ├─ Binary Bitmask 32-bit         : [00010010 00000000 00000001 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0101
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7275.5ms
+
+[098/100] ID: frontiercode_098                       | Difficulty: Main     | Status: 🟢 PASS
+  ├─ Target Repository            : hashicorp/terraform
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7399.4ms
+
+[099/100] ID: frontiercode_099                       | Difficulty: Extended | Status: 🟢 PASS
+  ├─ Target Repository            : golang/go
+  ├─ Language                     : Go
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12010201
+  ├─ Binary Bitmask 32-bit         : [00010010 00000001 00000010 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0201
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7251.2ms
+
+[100/100] ID: frontiercode_100                       | Difficulty: Diamond  | Status: 🟢 PASS
+  ├─ Target Repository            : rust-lang/rust
+  ├─ Language                     : Rust
+  ├─ GPU VRAM AtomTensor (uint32) : 0x12030301
+  ├─ Binary Bitmask 32-bit         : [00010010 00000011 00000011 00000001]
+  ├─ Active GPU Symbol Bitmasks   : ['0x01', '0x03', '0x0A', '0x0B', '0x0C', '0x0D', '0x0E', '0x15', '0x17', '0x18', '0x1C', '0x20']
+  ├─ Memory Pointer (CUDA VRAM)   : 0x7f9a4c0301
+  ├─ Solver Family                : FrontierCodeEngine
+  └─ Execution Latency            : 7296.3ms
